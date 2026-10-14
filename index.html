@@ -1,0 +1,1602 @@
+<title>Bilim International School – OSSD и поступление в Атырау</title>
+<meta name="description" content="Профориентация, Pre-OSSD для 8–9 классов, OSSD для 10–11 классов, академический английский и сопровождение поступления в Bilim International School, Атырау.">
+<link rel="canonical" href="https://mybilim.kz/">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800;900&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+  /* full motion only when the libraries loaded and the viewer allows motion; otherwise a calm static page */
+  (function(){ try{
+    if(window.gsap && window.ScrollTrigger && !matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('gs');
+  }catch(e){} })();
+</script>
+<style>
+/* Layout: «сэндвич» BIS. Интро с гигантским BILIM и фото, которое раскрывается на весь экран; дальше чередуются тёмные, светлые и красные блоки по структуре контент-плана mybilim */
+:root{
+  --ink:#14161A; --card:#1F2228; --card2:#2A2D33; --grey:#41464F; --muted:#6D737D; --light:#B7BCC5;
+  --line:#E7E8EB; --soft:#F5F6F7; --white:#FFFFFF; --red:#E3402A; --coral:#FF5A3C; --pink:#FFD9D2;
+  --f:"Onest",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --r:28px; --gut:clamp(16px,4vw,56px); --max:1240px; --hdr:112px;
+  --ease:cubic-bezier(.2,.8,.2,1);
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{overflow-x:clip}
+html{scroll-padding-top:var(--hdr)}
+body{margin:0;background:var(--ink);color:var(--white);font-family:var(--f);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--gut)}
+.grain::after{content:"";position:absolute;inset:0;background:var(--grain);opacity:.07;pointer-events:none;mix-blend-mode:overlay}
+section{position:relative}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--red)}
+h1,h2,h3{margin:0;font-weight:800;letter-spacing:-.035em;line-height:1;text-wrap:balance}
+h2{font-size:clamp(34px,5.2vw,72px)}
+h3{font-size:clamp(21px,2vw,28px);letter-spacing:-.02em;line-height:1.1}
+.mut{color:var(--muted)}
+.light .mut{color:var(--light)}
+.redtxt{color:var(--red)}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+.lead{font-size:clamp(17px,1.5vw,20px);max-width:58ch}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px;border-radius:8px}
+.w{display:inline-block;white-space:nowrap;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.c{display:inline-block;will-change:transform}
+.tbc{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px dashed currentColor;border-radius:999px;padding:1px 7px;margin-left:6px;vertical-align:.25em;opacity:.7}
+.sec{padding-block:clamp(90px,10vw,140px)}
+.head{display:grid;gap:22px;margin-bottom:clamp(40px,5vw,64px);max-width:920px;position:relative}
+.light{background:#fff;color:var(--ink)}
+.light::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 480px at 100% 0%,rgba(255,90,60,.10),transparent 70%);pointer-events:none}
+.light .lead{color:var(--grey)}
+.soft{background:var(--soft);color:var(--ink)}
+.soft .lead{color:var(--grey)}
+.soft .mut{color:var(--light)}
+.dark{background:var(--ink);color:#fff;overflow:hidden}
+.dark .lead{color:var(--light)}
+.dark.glow::before{content:"";position:absolute;inset:0;background:radial-gradient(800px 500px at 0% 100%,rgba(227,64,42,.22),transparent 70%);pointer-events:none}
+.redsec{background:linear-gradient(135deg,#E3402A 0%,#C9321F 100%);color:#fff;overflow:hidden}
+.redsec .eyebrow{color:var(--pink)}
+.redsec .lead{color:var(--pink)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1.5px solid currentColor;border-radius:999px;padding:9px 16px;font-weight:600;font-size:15px;opacity:.9}
+.light .chip,.soft .chip{color:var(--grey)}
+.dark .chip{color:var(--light)}
+
+.adm h2,.pre-grid h2,.mun h2,.faq h2{font-size:clamp(32px,4vw,58px)}
+.apply h2{font-size:clamp(38px,5vw,76px)!important}
+/* ---------- preloader ---------- */
+#pre{display:none}
+.gs #pre{display:flex;position:fixed;inset:0;z-index:200;background:var(--ink);flex-direction:column;justify-content:space-between;padding:calc(28px + env(safe-area-inset-top,0px)) var(--gut) calc(28px + env(safe-area-inset-bottom,0px))}
+#pre .top{display:flex;justify-content:space-between;gap:16px;font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+#pre .mid{display:flex;align-items:center;justify-content:center;gap:clamp(10px,2vw,22px)}
+#pre .ball{width:clamp(70px,11vw,140px);aspect-ratio:1;border-radius:50%;background:var(--red);display:grid;place-items:center;font-weight:900;font-size:clamp(40px,6.4vw,82px);letter-spacing:-.05em;box-shadow:0 0 80px rgba(227,64,42,.55)}
+#pre .is{font-weight:900;font-size:clamp(56px,9vw,120px);letter-spacing:-.06em;line-height:1}
+#pre .bot{display:flex;justify-content:space-between;align-items:end;gap:20px}
+#pre .num{font-size:clamp(64px,12vw,170px);font-weight:900;letter-spacing:-.06em;line-height:.8;font-variant-numeric:tabular-nums}
+#pre .bar{flex:1;height:3px;background:var(--card2);border-radius:3px;overflow:hidden;margin-bottom:12px;max-width:520px}
+#pre .bar i{display:block;height:100%;background:var(--red);transform:scaleX(0);transform-origin:left}
+
+/* ---------- cursor ---------- */
+.cur,.cur-dot{display:none}
+@media (pointer:fine){
+  .gs .cur{opacity:0;display:grid;position:fixed;left:0;top:0;z-index:150;width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%;border:1.5px solid rgba(255,255,255,.55);place-items:center;pointer-events:none;mix-blend-mode:difference;transition:width .35s var(--ease),height .35s var(--ease),margin .35s var(--ease),background .35s,border-color .35s}
+  .gs .cur span{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#fff;opacity:0;transition:opacity .25s}
+  .gs .cur.big{width:104px;height:104px;margin:-52px 0 0 -52px;background:var(--red);border-color:var(--red);mix-blend-mode:normal}
+  .gs .cur.big span{opacity:1}
+  .gs .cur.link{width:70px;height:70px;margin:-35px 0 0 -35px;background:#fff;border-color:#fff}
+  .gs .cur-dot{opacity:0;display:block;position:fixed;left:0;top:0;z-index:151;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:var(--red);pointer-events:none}
+}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 26px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;transition:background .3s,color .3s,box-shadow .3s;will-change:transform;text-align:center}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--coral)}
+.btn-ghost{background:transparent;color:inherit;box-shadow:inset 0 0 0 1.5px currentColor}
+.btn-ghost:hover{background:var(--white);color:var(--ink);box-shadow:inset 0 0 0 1.5px #fff}
+.light .btn-ghost:hover,.soft .btn-ghost:hover{background:var(--ink);color:#fff;box-shadow:inset 0 0 0 1.5px var(--ink)}
+.btn .arr{transition:transform .3s}
+.btn:hover .arr{transform:translateX(4px)}
+.btn-white{background:#fff;color:var(--ink)}
+.btn-white:hover{background:var(--ink);color:#fff}
+.btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed}
+
+/* ---------- header: event bar + nav ---------- */
+.hdr{position:fixed;inset:0 0 auto;z-index:60;padding-top:env(safe-area-inset-top,0px);transition:transform .5s var(--ease)}
+.hdr.hide{transform:translateY(-100%)}
+.event{background:var(--red);color:#fff;font-size:14px;overflow:hidden;max-height:60px;transition:max-height .45s var(--ease)}
+.hdr.compact .event{max-height:0}
+.event .wrap{display:flex;align-items:center;justify-content:center;gap:10px 18px;flex-wrap:wrap;padding-block:8px;text-align:center}
+.event b{font-weight:700}
+.event .dl{color:var(--pink)}
+.event a{background:#fff;color:var(--ink);border-radius:999px;padding:4px 12px;font-weight:700;font-size:13px;text-decoration:none}
+@media (max-width:760px){.event .dl,.event .dt{display:none}.event{font-size:13px}.event .wrap{flex-wrap:nowrap;gap:12px}.event b.mo{display:inline}}
+.event .mo{display:none}
+.nav{transition:background .4s,box-shadow .4s}
+.hdr.solid .nav{background:rgba(20,22,26,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(255,255,255,.06)}
+.nav .wrap{display:flex;align-items:center;gap:20px;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.logo img{height:48px;width:auto;display:block}
+@media (max-width:560px){.logo img{height:40px}}
+.logo small{display:block;font-size:11px;line-height:1.25;color:var(--light);font-weight:500}
+.logo b{display:block;font-size:14px;line-height:1.2}
+.links{display:flex;align-items:center;gap:18px;margin-left:auto;font-size:14px;font-weight:500}
+.links>a,.dd>button{white-space:nowrap;text-decoration:none;color:var(--light);position:relative;transition:color .25s;background:none;border:0;font:inherit;cursor:pointer;padding:0;display:flex;align-items:center;gap:6px}
+.links>a::after{content:"";position:absolute;left:0;right:100%;bottom:-6px;height:2px;background:var(--red);transition:right .35s}
+.links>a:hover,.dd>button:hover{color:#fff}.links>a:hover::after{right:0}
+.dd{position:relative}
+.dd>button::after{content:"";width:7px;height:7px;border:solid currentColor;border-width:0 1.5px 1.5px 0;transform:rotate(45deg) translateY(-3px);transition:transform .3s}
+.dd.open>button::after{transform:rotate(225deg) translateY(-1px)}
+.dd .menu{position:absolute;top:calc(100% + 16px);left:-18px;min-width:230px;background:var(--card);border-radius:18px;padding:8px;box-shadow:0 24px 60px rgba(0,0,0,.45);display:grid;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .25s,transform .35s var(--ease),visibility .25s}
+.dd.open .menu{opacity:1;visibility:visible;transform:none}
+.dd .menu a{padding:11px 14px;border-radius:12px;text-decoration:none;color:#fff;display:flex;justify-content:space-between;gap:12px}
+.dd .menu a small{color:var(--muted)}
+.dd .menu a:hover{background:var(--card2)}
+.nav .cta-h{padding:12px 18px;font-size:14px;flex:none}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:0;background:var(--card2);color:#fff;cursor:pointer;flex:none;place-items:center;font-size:20px}
+@media (min-width:1201px){.logo .lt{display:none}}
+@media (max-width:1200px){.links{display:none}.nav .cta-h{margin-left:auto}.burger{display:grid}}
+@media (max-width:560px){.nav .cta-h{display:none}.burger{margin-left:auto}}
+@media (max-width:420px){.logo .lt{display:none}}
+/* mobile menu */
+.mmenu{position:fixed;inset:0;z-index:70;background:var(--ink);padding:calc(20px + env(safe-area-inset-top,0px)) var(--gut) calc(30px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:24px;overflow-y:auto;clip-path:circle(0% at calc(100% - 40px) 40px);visibility:hidden;transition:clip-path .7s var(--ease),visibility 0s .7s}
+.mmenu.open{clip-path:circle(150% at calc(100% - 40px) 40px);visibility:visible;transition:clip-path .7s var(--ease),visibility 0s}
+.mmenu .mtop{display:flex;justify-content:space-between;align-items:center}
+.mmenu nav{display:grid;gap:4px}
+.mmenu nav>a,.mmenu .msub>button{font-size:clamp(28px,7vw,40px);font-weight:800;letter-spacing:-.03em;text-decoration:none;color:#fff;background:none;border:0;font-family:inherit;text-align:left;padding:6px 0;cursor:pointer;display:flex;align-items:center;gap:12px}
+.mmenu .msub>button span{color:var(--red);font-size:.7em;transition:transform .3s}
+.mmenu .msub.open>button span{transform:rotate(45deg)}
+.mmenu .msub div{display:grid;gap:2px;max-height:0;overflow:hidden;transition:max-height .45s var(--ease);padding-left:4px}
+.mmenu .msub.open div{max-height:220px}
+.mmenu .msub div a{font-size:20px;color:var(--light);text-decoration:none;padding:6px 0}
+.mmenu .mfoot{margin-top:auto;display:grid;gap:12px;color:var(--light)}
+
+/* ---------- intro / first screen ---------- */
+#top{height:100vh;height:100svh;min-height:620px;overflow:hidden;background:var(--ink)}
+#top::before{content:"";position:absolute;inset:0;background:radial-gradient(800px 600px at 80% 10%,rgba(227,64,42,.35),transparent 70%);pointer-events:none}
+.wm{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:flex-start;padding-top:calc(var(--hdr) + 2vh);gap:.6vw;pointer-events:none;user-select:none}
+.wm .r{white-space:nowrap;font-weight:900;font-size:clamp(84px,12.5vw,200px);line-height:.86;letter-spacing:-.06em;will-change:transform}
+.wm .r span{display:inline-block}
+.wm .r1{transform:translateX(-4%);color:rgba(255,255,255,.07)}
+.wm .r2{transform:translateX(-30%);color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,.16)}
+.wm .r3{transform:translateX(-12%);color:rgba(227,64,42,.28)}
+.frame{position:absolute;inset:0;z-index:1;overflow:hidden}
+.frame .ph{position:absolute;inset:0;border-radius:0}
+.frame .shade{position:absolute;inset:0;z-index:4;background:linear-gradient(90deg,rgba(20,22,26,.94) 0%,rgba(20,22,26,.8) 38%,rgba(20,22,26,.45) 70%,rgba(20,22,26,.6) 100%),linear-gradient(180deg,rgba(20,22,26,.7) 0%,rgba(20,22,26,0) 26%,rgba(20,22,26,0) 70%,rgba(20,22,26,.95) 100%);pointer-events:none}
+
+.hero-copy{position:absolute;z-index:5;left:0;right:0;top:calc(var(--hdr) + 8px);bottom:0;padding-block:0 clamp(56px,9vh,96px);margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) clamp(300px,32vw,440px);gap:clamp(24px,4vw,64px);align-items:center}
+.hc-main{display:grid;gap:22px;justify-items:start;min-width:0}
+.hero-copy>*{min-width:0}
+#top{background:var(--ink)}
+#top::before{display:none}
+#top .frame .ph img{object-position:50% 52%;filter:none}
+#top .frame .shade{background:linear-gradient(0deg,rgba(20,22,26,.97) 0%,rgba(20,22,26,.62) 32%,rgba(20,22,26,.1) 60%,rgba(20,22,26,.55) 100%),linear-gradient(90deg,rgba(20,22,26,.72) 0%,rgba(20,22,26,.18) 55%,rgba(20,22,26,0) 100%)}
+@media (max-height:820px){#top .hint{display:none!important}}
+.hero-copy{grid-template-columns:minmax(0,1fr) clamp(280px,28vw,380px);align-items:end;padding-block:0 clamp(48px,8vh,88px)}
+#top .hero-copy h1{text-shadow:0 2px 24px rgba(0,0,0,.35);font-size:clamp(34px,4.3vw,64px);max-width:20ch}
+#top .hero-copy .eyebrow:not(.hn-head .eyebrow){color:#fff;opacity:.85}
+.hside{position:relative}
+.hside .hnews{position:static}
+.hnews{display:grid;gap:12px}
+.hn-head{display:flex;justify-content:space-between;align-items:center;gap:12px;white-space:nowrap}
+.hn-nav{display:flex;gap:6px}
+.hnews .hn-head .eyebrow{color:#fff;background:rgba(20,22,26,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:7px 12px;border-radius:999px}
+.hn-nav button{width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(20,22,26,.35);color:#fff;cursor:pointer;font-size:14px;display:grid;place-items:center;transition:background .25s,opacity .25s}
+.hn-nav button:hover{background:var(--red);border-color:transparent}.hn-nav button:disabled{opacity:.35;pointer-events:none}
+.hn-list{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;border-radius:18px}
+.hn-list::-webkit-scrollbar{display:none}
+.hc{flex:0 0 100%;scroll-snap-align:start;background:#fff;color:var(--ink);border-radius:18px;padding:18px;text-decoration:none;display:grid;gap:8px;align-content:start;box-shadow:0 20px 50px rgba(0,0,0,.35);transition:transform .35s var(--ease)}
+.hc:hover{transform:translateY(-3px)}
+.hc .tag{justify-self:start;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red);background:#FDE7E3;border-radius:999px;padding:5px 10px}
+.hc b{font-size:19px;line-height:1.2;letter-spacing:-.01em}
+.hc p{font-size:14px;line-height:1.45;color:#5B606B}
+.hc .by{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:12px;color:#5B606B}
+.hc .by i{width:24px;height:24px;border-radius:50%;background:var(--red);color:#fff;font-style:normal;font-weight:800;font-size:12px;display:grid;place-items:center;flex:none}
+.hc .by span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hc .by em{margin-left:auto;font-style:normal;white-space:nowrap}
+.hn-foot{display:flex;justify-content:space-between;align-items:center}
+.hn-foot a{font-size:14px;font-weight:700;color:#fff;text-decoration:none;opacity:.85}.hn-foot a:hover{opacity:1;color:var(--coral,#FF5A3C)}
+.hn-dots{display:flex;gap:6px}.hn-dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.3);transition:background .3s,width .3s}.hn-dots i.on{background:#fff;width:18px;border-radius:4px}
+.mnews{display:none;background:var(--ink);padding:8px 0 40px}
+.mnews .hn-list{grid-auto-flow:column;grid-auto-columns:78%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
+.mnews .hn{border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:16px 40px 16px 16px;scroll-snap-align:start;background:rgba(255,255,255,.04)}
+.live{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:8px;vertical-align:1px;box-shadow:0 0 0 0 rgba(227,64,42,.6);animation:livep 1.8s infinite}
+@keyframes livep{70%{box-shadow:0 0 0 8px rgba(227,64,42,0)}100%{box-shadow:0 0 0 0 rgba(227,64,42,0)}}
+@media (max-width:759px){
+  #top{height:auto;min-height:100vh;min-height:100svh}
+  .hero-copy{position:relative;top:auto;bottom:auto;grid-template-columns:1fr;padding-top:calc(var(--hdr) + 28px);padding-bottom:8px;align-content:start;gap:28px}
+  .hnews{max-width:none}
+  .hside{padding-bottom:0}
+  #top .frame{bottom:auto;height:66svh}
+  #top .frame .ph img{object-position:50% 40%}
+  #top .frame .shade{background:linear-gradient(180deg,rgba(20,22,26,.5) 0%,rgba(20,22,26,0) 22%,rgba(20,22,26,.2) 55%,rgba(20,22,26,1) 100%)}
+  .hero-copy{padding-top:44svh}
+}
+.pg[hidden]{display:none!important}
+.pband{background:var(--ink);color:#fff;padding:calc(var(--hdr) + 18px) 0 18px;border-bottom:1px solid rgba(255,255,255,.08)}
+.pband .wrap{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:14px}
+.pband .crumb{font-weight:600;color:var(--light);text-decoration:none}.pband .crumb:hover{color:#fff}
+.pband h1{font-size:14px;font-weight:700;letter-spacing:0;line-height:1.4;color:#fff}
+.pband h1::before{content:"/";margin-right:10px;color:var(--muted)}
+.pband p{display:none}
+.sub .hdr .nav{background:rgba(20,22,26,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.rc .more{display:inline-flex;margin-top:16px;font-weight:700;font-size:15px;color:#fff;text-decoration:none;border-bottom:2px solid var(--red);padding-bottom:2px}
+.rc.hot .more{border-color:#fff}
+.fnav a{color:var(--muted);text-decoration:none}.fnav a:hover{color:#fff}
+.hero-copy h1{font-size:clamp(38px,5.6vw,84px);line-height:1;max-width:16ch}
+.hero-copy .lead{max-width:56ch}
+.hero-copy .lead{color:var(--light)}
+.hero-copy .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:4px}
+.hint{position:absolute;z-index:6;right:var(--gut);bottom:28px;display:none;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#fff}
+.gs .hint{display:flex}
+.hint i{width:1.5px;height:34px;background:linear-gradient(var(--red),transparent);animation:drip 1.6s ease-in-out infinite;transform-origin:top}
+@keyframes drip{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(1);opacity:0}}
+.ftag{position:absolute;z-index:6;top:calc(var(--hdr) + 24px);right:var(--gut);display:grid;width:132px;height:132px;border-radius:50%;background:var(--red);place-items:center;box-shadow:0 20px 50px rgba(227,64,42,.45)}
+.ftag svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 18s linear infinite}
+.ftag strong{font-size:22px;font-weight:900;letter-spacing:-.03em;line-height:.95;text-align:center}
+.ftag strong small{display:block;font-size:10px;letter-spacing:.14em;font-weight:700;color:var(--pink);margin-top:4px}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:700px){.ftag{width:96px;height:96px}.ftag strong{font-size:16px}.hero-copy .btn{padding:14px 20px;font-size:15px}}
+
+/* intro sub-strip */
+.strip{background:var(--ink);padding-block:64px 90px}
+.strip .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,90px);align-items:start}
+.strip .lead{color:var(--light)}
+.facts{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid rgba(255,255,255,.1)}
+.facts div{padding:22px 18px 18px 0;display:grid;gap:4px;border-bottom:1px solid rgba(255,255,255,.1)}
+.facts b{font-size:clamp(22px,2.4vw,32px);letter-spacing:-.03em;line-height:1.1}
+.facts span{color:var(--muted);font-size:14px}
+@media (max-width:860px){.strip .wrap{grid-template-columns:1fr}}
+
+/* marquee */
+.marquee{background:var(--red);color:#fff;overflow:hidden;padding-block:20px;transform:rotate(-1.6deg) scale(1.04);margin-block:-14px;z-index:4;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.mtrack{display:flex;width:max-content;font-size:clamp(20px,2.4vw,30px);font-weight:800;letter-spacing:-.02em;white-space:nowrap;will-change:transform}
+html:not(.gs) .mtrack{animation:mq 34s linear infinite}
+.mtrack span{padding-right:42px}
+.marquee .mtrack span::after{content:"✦";margin-left:42px;color:var(--pink);font-size:.7em;vertical-align:.15em}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- photo placeholders ---------- */
+.ph{position:relative;overflow:hidden;background:radial-gradient(120% 90% at 85% 0%,rgba(227,64,42,.55),transparent 60%),linear-gradient(160deg,#2A2D33 0%,#17191D 100%);isolation:isolate;color:#fff}
+.ph::before{content:"";position:absolute;inset:0;background:var(--grain);opacity:.12;mix-blend-mode:overlay;z-index:1}
+.ph .lbl{position:absolute;left:18px;bottom:16px;right:18px;z-index:2;display:grid;gap:4px;font-size:13px;color:rgba(255,255,255,.75)}
+.ph .lbl b{font-size:11px;letter-spacing:.2em;color:#fff;display:flex;align-items:center;gap:8px}
+.ph .lbl b::before{content:"";width:16px;height:12px;border:1.5px solid currentColor;border-radius:3px;background:radial-gradient(circle at 50% 55%,currentColor 2.2px,transparent 2.6px)}
+.frame .ph .lbl{top:auto;bottom:24px;left:auto;right:var(--gut);text-align:right;justify-items:end}
+@media (max-width:900px){.frame .ph .lbl{display:none}.gs .hint{display:none}}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:3}
+.frame .ph img{object-position:50% 62%;filter:saturate(.9)}
+.nw .ph img{object-position:50% 40%}
+.edit .ph{cursor:copy;outline:2px dashed rgba(255,255,255,.35);outline-offset:-10px}
+.edit .ph.over{outline-color:var(--coral)}
+
+/* ---------- about ---------- */
+.about{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,6vw,90px);align-items:center}
+.about .txt{display:grid;gap:18px;color:var(--grey);font-size:clamp(16px,1.3vw,18px);max-width:60ch}
+.about .txt a{color:var(--red);font-weight:600;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px;transition:color .25s}
+.about .txt a:hover{color:var(--ink)}
+.about .txt p:first-child{color:var(--ink);font-size:clamp(19px,1.7vw,23px);font-weight:500;line-height:1.45}
+.about .pic{position:relative}
+.about .pic .ph{border-radius:var(--r);aspect-ratio:4/5;width:100%}
+.partner{position:absolute;left:-28px;bottom:28px;z-index:5;background:#fff;color:var(--ink);border-radius:20px;padding:16px 20px;box-shadow:0 24px 50px rgba(20,22,26,.18);display:grid;gap:2px;max-width:260px}
+.partner small{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--red)}
+.partner b{font-size:17px;line-height:1.2}
+@media (max-width:900px){.about{grid-template-columns:1fr}.partner{left:16px}}
+
+/* ---------- help: sticky stack ---------- */
+.stack{display:grid;gap:22px;position:relative}
+.scard{position:sticky;top:calc(var(--hdr) + 10px + var(--i) * 22px);border-radius:var(--r);background:var(--soft);padding:clamp(28px,4vw,52px);display:grid;grid-template-columns:auto 1fr;gap:clamp(20px,5vw,80px);align-items:end;min-height:min(44vh,360px);transform-origin:center top;box-shadow:0 -10px 40px rgba(20,22,26,.08);will-change:transform;color:var(--ink)}
+.scard .k{font-size:clamp(90px,14vw,200px);font-weight:900;letter-spacing:-.07em;line-height:.78;color:var(--line)}
+.scard h3{font-size:clamp(28px,3.6vw,52px);letter-spacing:-.04em}
+.scard p{color:var(--grey);font-size:clamp(16px,1.3vw,19px);margin-top:14px;max-width:46ch}
+.scard.s2{background:var(--ink);color:#fff}.scard.s2 .k{color:var(--card2)}.scard.s2 p{color:var(--light)}
+.scard.s3{background:var(--red);color:#fff}.scard.s3 .k{color:rgba(255,255,255,.3)}.scard.s3 p{color:var(--pink)}
+.scard.s4{background:var(--card);color:#fff}.scard.s4 .k{color:var(--red)}.scard.s4 p{color:var(--light)}
+@media (max-width:640px){.scard{grid-template-columns:1fr;align-items:start;gap:16px;min-height:0}}
+.after{margin-top:40px;display:flex}
+
+/* ---------- start: horizontal track ---------- */
+#start .pinbox{position:relative}
+.rprog{height:4px;border-radius:4px;background:var(--card2);margin-bottom:34px;overflow:hidden;display:none}
+.rprog i{display:block;height:100%;background:linear-gradient(90deg,var(--red),var(--coral));transform:scaleX(0);transform-origin:left;box-shadow:0 0 18px rgba(227,64,42,.7)}
+.track{display:grid;gap:16px;padding-inline:var(--gut);max-width:var(--max);margin:0 auto}
+.rc{position:relative;border-radius:var(--r);background:var(--card);padding:30px;display:grid;align-content:space-between;gap:26px;min-height:330px;overflow:hidden;min-width:0}
+.rc .n{font-size:clamp(60px,6vw,96px);font-weight:900;letter-spacing:-.06em;line-height:.85;color:transparent;-webkit-text-stroke:2px #3A3E46}
+.rc .when{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.rc h3{font-size:clamp(28px,3vw,42px);margin-top:10px}
+.rc p{color:var(--light);margin-top:12px;max-width:36ch}
+.rc.hot{background:var(--red)}.rc.hot .when{color:var(--pink)}.rc.hot p{color:var(--pink)}.rc.hot .n{-webkit-text-stroke-color:rgba(255,255,255,.5)}
+.rc.ph{padding:0;min-height:330px}
+@media (min-width:900px){
+  .gs #start{height:100vh;height:100svh;padding-block:var(--hdr) 0;display:flex;align-items:center}
+  .gs #start .pinbox{width:100%}
+  .gs .rprog{display:block}
+  .gs .track{display:flex;width:max-content;max-width:none;gap:20px;margin:0}
+  .gs .rc{width:min(400px,32vw);height:min(52vh,460px);min-height:0;flex:none}
+  .gs .rc.ph{width:min(560px,42vw)}
+  html:not(.gs) .track{grid-template-columns:repeat(3,1fr)}
+  .gs #start .head{margin-bottom:28px}
+}
+
+/* ---------- career (red) ---------- */
+.career{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:start;position:relative}
+.outs{display:grid;counter-reset:o}
+.outs li{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:baseline;padding:22px 0;border-top:1px solid rgba(255,255,255,.28);font-size:clamp(20px,2vw,28px);font-weight:700;letter-spacing:-.02em;line-height:1.2}
+.outs li:last-child{border-bottom:1px solid rgba(255,255,255,.28)}
+.outs li::before{counter-increment:o;content:counter(o,decimal-leading-zero);font-size:13px;font-weight:700;letter-spacing:.1em;color:var(--pink)}
+@media (max-width:900px){.career{grid-template-columns:1fr}}
+
+
+/* ---------- photo strip (polaroids, drifts and speeds up with scroll) ---------- */
+.pstrip{background:var(--ink);overflow:hidden;padding:clamp(28px,4vw,48px) 0 clamp(36px,5vw,64px)}
+.ptrack{display:flex;gap:clamp(14px,2vw,26px);width:max-content;will-change:transform;padding-inline:clamp(7px,1vw,13px)}
+html:not(.gs) .ptrack{animation:mq 70s linear infinite}
+.pc{margin:0;flex:none;width:clamp(150px,19vw,250px);background:#fff;padding:8px 8px 12px;border-radius:14px;transform:rotate(var(--r));box-shadow:0 18px 40px rgba(0,0,0,.35);transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.pc:hover{transform:rotate(0) translateY(-8px) scale(1.04)}
+.pc img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:9px;background:#e9e9e9}
+.pc figcaption{color:var(--ink);font-weight:700;font-size:clamp(13px,1.1vw,15px);margin:10px 4px 0;letter-spacing:-.01em}
+/* rotating destination in the headline */
+.rot{display:inline-grid;vertical-align:bottom;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.rot .rw{grid-area:1/1;white-space:nowrap}
+html:not(.gs) .rot .rw:not(.on){visibility:hidden}
+@media (max-width:759px){.rot{justify-items:start}}
+/* ---------- pre-ossd ---------- */
+.pre-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:start}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:34px}
+.stat{background:var(--soft);border-radius:22px;padding:22px 20px;display:grid;gap:6px}
+.stat b{font-size:clamp(44px,5vw,72px);font-weight:900;letter-spacing:-.06em;line-height:.9;color:var(--red);font-variant-numeric:tabular-nums}
+.stat b.sm{font-size:clamp(28px,3vw,40px);letter-spacing:-.04em;padding-top:.3em}
+.stat span{color:var(--grey);font-size:14px;line-height:1.3}
+.plist{display:grid}
+.plist li{display:flex;align-items:center;gap:16px;padding:18px 4px;border-bottom:1px solid var(--line);font-size:clamp(18px,1.6vw,22px);font-weight:600;letter-spacing:-.01em;transition:padding .35s var(--ease),color .3s}
+.plist li:first-child{border-top:1px solid var(--line)}
+.plist li::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--red);flex:none;transition:transform .35s var(--ease)}
+.plist li:hover{padding-left:16px;color:var(--red)}
+.plist li:hover::before{transform:scale(1.6)}
+@media (max-width:900px){.pre-grid{grid-template-columns:1fr}}
+@media (max-width:480px){.stats{grid-template-columns:1fr 1fr}.stat:last-child{grid-column:span 2}}
+
+/* ---------- ossd ---------- */
+.ossd-top{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(30px,6vw,90px);align-items:end;margin-bottom:clamp(50px,6vw,80px)}
+.ossd-top .txt{display:grid;gap:16px;color:var(--light)}
+.dipl{border-radius:var(--r);background:linear-gradient(150deg,#2A2D33,#1A1C20);padding:30px;position:relative;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+.dipl::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(227,64,42,.55),transparent 70%)}
+.dipl small{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.dipl b{display:block;font-size:clamp(26px,2.6vw,36px);letter-spacing:-.03em;line-height:1.05;margin-top:12px}
+.dipl span{display:block;color:var(--light);margin-top:10px;font-size:15px}
+.subj-h{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:24px}
+.subj-h h3{font-size:clamp(28px,3.4vw,48px);letter-spacing:-.04em}
+.subj-h p{color:var(--light);max-width:46ch}
+.subjects{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.sj{border-radius:20px;background:var(--card);padding:22px;display:grid;gap:26px;min-height:150px;align-content:space-between;transition:background .35s,transform .45s var(--ease)}
+.sj code{font-family:inherit;font-size:clamp(26px,2.4vw,34px);font-weight:900;letter-spacing:-.03em;color:var(--red);transition:color .35s}
+.sj span{color:var(--light);font-size:15px;line-height:1.3;transition:color .35s}
+.sj:hover{background:var(--red);transform:translateY(-6px) rotate(-1deg)}
+.sj:hover code{color:#fff}.sj:hover span{color:var(--pink)}
+.extra{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.extra>b{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-right:6px}
+@media (max-width:980px){.ossd-top{grid-template-columns:1fr}.subjects{grid-template-columns:1fr 1fr}}
+@media (max-width:420px){.subjects{grid-template-columns:1fr}}
+
+/* ---------- portfolio: kinetic list ---------- */
+.kin{display:grid;border-top:1px solid var(--line)}
+.kin li{position:relative;border-bottom:1px solid var(--line);overflow:hidden}
+.kin li span{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:clamp(14px,1.6vw,22px) 4px;font-size:clamp(30px,5.4vw,78px);font-weight:900;letter-spacing:-.05em;line-height:1;position:relative;z-index:1;transition:color .4s,padding .5s var(--ease)}
+.kin li span::after{content:"→";font-size:.45em;opacity:0;transform:translateX(-20px);transition:opacity .4s,transform .5s var(--ease)}
+.kin li::before{content:"";position:absolute;inset:0;background:var(--red);transform:scaleY(0);transform-origin:bottom;transition:transform .5s var(--ease)}
+.kin li:hover::before{transform:scaleY(1)}
+.kin li:hover span{color:#fff;padding-left:24px;padding-right:24px}
+.kin li:hover span::after{opacity:1;transform:none}
+
+/* MUN */
+.mun{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,70px);align-items:center}
+.mun .ph{border-radius:var(--r);aspect-ratio:5/4;width:100%}
+.mun .txt{display:grid;gap:16px;color:var(--grey)}
+.dlink{all:unset;cursor:pointer;color:#fff;font-weight:700;text-decoration:underline;text-decoration-color:var(--red);text-decoration-thickness:2px;text-underline-offset:4px}
+.dlink:hover{color:var(--coral,#FF5A3C)}
+.dipl[data-open]{cursor:pointer;transition:transform .4s var(--ease)}
+.dipl[data-open]:hover{transform:translateY(-4px)}
+.dsee{display:block;margin-top:12px;font-style:normal;font-weight:700;font-size:14px;color:var(--coral,#FF5A3C)}
+.dmodal{border:0;padding:16px;background:var(--card,#22252B);color:#fff;border-radius:24px;width:min(720px,92vw);max-height:92vh}
+.dmodal::backdrop{background:rgba(10,11,13,.75);backdrop-filter:blur(6px)}
+.dmodal .dscan{aspect-ratio:1.414/1;border-radius:14px;width:100%}
+.dmodal .dscan img{object-fit:contain;background:#fff}
+.dmodal p{margin:14px 6px 4px;color:var(--light);font-size:15px}
+.dclose{position:absolute;top:24px;right:24px;z-index:5;width:40px;height:40px;border-radius:50%;border:0;background:rgba(20,22,26,.7);color:#fff;font-size:16px;cursor:pointer}
+.mun .txt a{color:var(--red);font-weight:700}
+@media (max-width:900px){.mun{grid-template-columns:1fr}}
+
+/* ---------- admission ---------- */
+.adm{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(36px,6vw,90px);align-items:start}
+.adm .side{position:sticky;top:calc(var(--hdr) + 20px);display:grid;gap:22px}
+.adm .side .note{color:var(--muted);font-size:15px;border-left:3px solid var(--red);padding-left:14px}
+.tl{position:relative;display:grid;gap:0;padding-left:46px}
+.tl::before{content:"";position:absolute;left:15px;top:8px;bottom:8px;width:3px;border-radius:3px;background:var(--card2)}
+.tl .tfill{position:absolute;left:15px;top:8px;width:3px;height:calc(100% - 16px);border-radius:3px;background:linear-gradient(var(--red),var(--coral));transform-origin:top;transform:scaleY(1);box-shadow:0 0 16px rgba(227,64,42,.6)}
+.gs .tl .tfill{transform:scaleY(0)}
+.tl li{position:relative;padding:20px 0 20px;border-bottom:1px solid rgba(255,255,255,.08);font-size:clamp(19px,1.8vw,25px);font-weight:700;letter-spacing:-.02em;line-height:1.25}
+.tl li::before{content:attr(data-n);position:absolute;left:-46px;top:20px;width:33px;height:33px;border-radius:50%;background:var(--ink);border:3px solid var(--red);display:grid;place-items:center;font-size:12px;font-weight:800;color:#fff;letter-spacing:0}
+@media (max-width:900px){.adm{grid-template-columns:1fr}.adm .side{position:static}}
+
+/* universities */
+.unis{background:var(--ink);padding-block:70px;overflow:hidden;border-top:1px solid rgba(255,255,255,.06)}
+.unis h3{font-size:clamp(20px,2vw,26px);color:var(--light);font-weight:600;max-width:40ch;margin-bottom:34px}
+.utrack{display:flex;width:max-content;gap:16px;will-change:transform}
+html:not(.gs) .utrack{animation:mq 40s linear infinite}
+.uni{flex:none;display:flex;align-items:center;gap:14px;border-radius:999px;background:var(--card);padding:18px 26px 18px 18px;font-size:clamp(17px,1.6vw,22px);font-weight:700;letter-spacing:-.01em;white-space:nowrap}
+.uni i{width:38px;height:38px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-style:normal;font-weight:900;font-size:16px;color:#fff}
+
+/* ---------- results ---------- */
+.results{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.res{border-radius:var(--r);background:#fff;padding:26px;display:grid;gap:18px;align-content:start;box-shadow:0 1px 0 var(--line);position:relative;overflow:hidden;transition:transform .5s var(--ease),box-shadow .5s}
+.res:hover{transform:translateY(-8px);box-shadow:0 30px 60px rgba(20,22,26,.12)}
+.res .who{display:flex;align-items:center;gap:14px}
+.res .av{width:54px;height:54px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-weight:900;font-size:20px;flex:none}
+.res:nth-child(3n+2) .av{background:var(--red)}
+.res .who b{font-size:22px;letter-spacing:-.02em}
+.res .uni-n{font-size:clamp(19px,1.6vw,22px);font-weight:700;letter-spacing:-.02em;line-height:1.2}
+.res p{color:var(--grey);font-size:15px}
+.res .yr{position:absolute;right:20px;top:20px;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.12em}
+@media (max-width:980px){.results{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.results{grid-template-columns:1fr}}
+
+
+/* photo strip */
+.strip-sec{padding-block:clamp(90px,10vw,140px) clamp(70px,8vw,110px)}
+.gscroll{overflow-x:auto;overflow-y:hidden;scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;scroll-padding-inline:var(--gut);overscroll-behavior-x:contain;cursor:grab;touch-action:pan-x pan-y}
+.gscroll::-webkit-scrollbar{display:none}
+.gscroll.drag{cursor:grabbing;scroll-snap-type:none;user-select:none}
+.gscroll.drag figure{pointer-events:none}
+.gtrack figure{scroll-snap-align:start}
+.gnav{display:flex;gap:10px;align-items:center}
+.gnav button{width:52px;height:52px;border-radius:50%;border:1.5px solid rgba(255,255,255,.25);background:transparent;color:#fff;font:inherit;font-size:20px;cursor:pointer;display:grid;place-items:center;transition:background .3s,border-color .3s,opacity .3s}
+.gnav button:hover{background:var(--red,#E3402A);border-color:transparent}
+.gnav button:disabled{opacity:.3;pointer-events:none}
+.gbar{height:2px;background:rgba(255,255,255,.12);margin:26px var(--gut) 0;border-radius:2px;overflow:hidden}
+.gbar i{display:block;height:100%;width:0;background:var(--red,#E3402A);border-radius:2px}
+.ghint{font-size:13px;color:rgba(255,255,255,.55);margin-right:6px}
+@media (max-width:700px){.gnav button{width:44px;height:44px}.ghint{display:none}}
+.gtrack{display:flex;gap:16px;width:max-content;padding-inline:var(--gut);align-items:flex-end}
+.gtrack figure{margin:0;height:clamp(280px,42vw,520px);border-radius:22px;overflow:hidden;flex:none;position:relative}
+.gtrack figure.v{aspect-ratio:2/3}.gtrack figure.h{aspect-ratio:3/2}
+.gtrack figure.s{height:clamp(220px,32vw,400px)}
+.gtrack img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease),filter .6s}
+.gtrack figure:hover img{transform:scale(1.06)}
+.gtrack figcaption{z-index:4;position:absolute;left:14px;bottom:12px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(20,22,26,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:6px 10px;border-radius:999px}
+
+/* testimonials */
+.tst{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tq{border-radius:var(--r);background:var(--soft);padding:28px;display:grid;gap:24px;align-content:space-between;min-height:260px;border:2px dashed var(--line)}
+.tq q{font-size:20px;font-weight:600;letter-spacing:-.01em;line-height:1.35;quotes:"«" "»"}
+.tq .who{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:14px}
+.tq .who i{width:44px;height:44px;border-radius:50%;background:var(--line);flex:none}
+@media (max-width:900px){.tst{grid-template-columns:1fr}}
+
+/* courses */
+.courses{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.course{border-radius:22px;background:var(--card);padding:26px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:clamp(20px,1.9vw,26px);font-weight:800;letter-spacing:-.02em;transition:background .35s;min-width:0}
+.course i{font-style:normal;width:42px;height:42px;border-radius:50%;border:1.5px solid rgba(255,255,255,.25);display:grid;place-items:center;font-size:18px;flex:none;transition:transform .45s var(--ease),background .35s,border-color .35s}
+.course:hover{background:var(--card2)}
+.course:hover i{transform:rotate(-45deg);background:var(--red);border-color:var(--red)}
+@media (max-width:900px){.courses{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.courses{grid-template-columns:1fr}}
+
+/* abroad */
+.abroad{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}
+.ticket{border-radius:var(--r);background:var(--ink);color:#fff;display:grid;grid-template-columns:1fr auto;overflow:hidden;position:relative}
+.ticket .main{padding:clamp(26px,3vw,40px);display:grid;gap:22px;min-width:0}
+.ticket .stub{width:clamp(110px,14vw,170px);background:var(--red);padding:24px 18px;display:grid;align-content:space-between;justify-items:center;text-align:center;border-left:2px dashed rgba(20,22,26,.35);position:relative}
+.ticket .stub::before,.ticket .stub::after{content:"";position:absolute;left:-13px;width:24px;height:24px;border-radius:50%;background:#fff}
+.ticket .stub::before{top:-12px}.ticket .stub::after{bottom:-12px}
+.ticket .stub b{font-size:clamp(44px,5vw,68px);font-weight:900;letter-spacing:-.06em;line-height:.9}
+.ticket .stub small{color:var(--pink);font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.ticket .tags{display:flex;gap:8px;flex-wrap:wrap}
+.ticket .tags span{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;border-radius:999px;padding:5px 11px;background:var(--card2);color:var(--light)}
+.ticket .tags span:first-child{background:var(--red);color:#fff}
+.ticket h3{font-size:clamp(28px,3vw,42px)}
+.ticket dl{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 20px;margin:0}
+.ticket dt{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.ticket dd{margin:4px 0 0;font-weight:700;font-size:17px}
+.also{border-radius:var(--r);background:var(--soft);padding:clamp(26px,3vw,40px);display:grid;gap:20px;align-content:space-between}
+.also .flags{display:grid;gap:10px}
+.also .flags span{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--line);font-size:clamp(22px,2.2vw,30px);font-weight:800;letter-spacing:-.03em}
+@media (max-width:900px){.abroad{grid-template-columns:1fr}}
+@media (max-width:520px){.ticket{grid-template-columns:1fr}.ticket .stub{width:auto;border-left:0;border-top:2px dashed rgba(20,22,26,.35);grid-auto-flow:column;align-items:center}.ticket .stub::before,.ticket .stub::after{display:none}.ticket dl{grid-template-columns:1fr}}
+
+/* achievements */
+.ach{display:grid;grid-template-columns:1.2fr .8fr;gap:16px}
+.medals{border-radius:var(--r);background:var(--card);padding:clamp(26px,3vw,40px)}
+.medals h3{margin-bottom:20px}
+.medals li{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 0;border-top:1px solid rgba(255,255,255,.08);font-size:clamp(18px,1.6vw,22px);font-weight:700}
+.medal{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:700;color:var(--light);flex:none}
+.medal i{width:26px;height:26px;border-radius:50%;display:block;box-shadow:inset 0 -3px 0 rgba(0,0,0,.2)}
+.gold i{background:linear-gradient(135deg,#FFE08A,#E0A526)}
+.silver i{background:linear-gradient(135deg,#F2F4F7,#A7ADB8)}
+.first{border-radius:var(--r);background:var(--red);padding:clamp(26px,3vw,40px);display:grid;align-content:space-between;gap:30px}
+.first .big{font-size:clamp(110px,14vw,200px);font-weight:900;letter-spacing:-.08em;line-height:.8}
+.first small{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--pink)}
+.first b{display:block;font-size:clamp(24px,2.4vw,32px);letter-spacing:-.03em;margin-top:8px}
+.ach-note{color:var(--light);margin-top:24px;max-width:60ch}
+@media (max-width:900px){.ach{grid-template-columns:1fr}}
+
+/* news */
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.nw{display:grid;gap:16px;text-decoration:none;color:inherit}
+.nw .ph{border-radius:22px;aspect-ratio:4/3}
+.nw .ph img{transition:transform 1s var(--ease)}
+.nw:hover .ph img{transform:scale(1.06)}
+.nw small{color:var(--red);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.nw h3{font-size:clamp(20px,1.8vw,24px);transition:color .3s}
+.nw:hover h3{color:var(--red)}
+.nw p{color:var(--grey);font-size:15px}
+.sec-head-row{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:clamp(40px,5vw,60px)}
+.sec-head-row .head{margin:0}
+@media (max-width:900px){.news{grid-template-columns:1fr}}
+
+/* cabinet */
+.plat{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(40px,6vw,90px);align-items:center;position:relative}
+.feats{display:grid;margin-top:34px}
+.feats div{display:grid;grid-template-columns:auto 1fr;gap:16px;padding:16px 0;border-top:1px solid var(--line)}
+.feats div:last-child{border-bottom:1px solid var(--line)}
+.feats i{font-style:normal;width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-size:15px;font-weight:800}
+.feats b{display:block;font-size:17px}
+.feats span{color:var(--grey);font-size:15px}
+.phones{position:relative;display:flex;justify-content:center;gap:26px;padding-block:20px 80px}
+.phone{width:min(270px,44vw);aspect-ratio:9/18.5;background:#0B0C0E;border-radius:44px;padding:11px;box-shadow:0 0 0 2px #4A4F58,0 40px 80px rgba(20,22,26,.28);position:relative;flex:none;will-change:transform}
+.phone.p-b{top:60px}
+.scr{height:100%;border-radius:34px;background:var(--soft);overflow:hidden;color:var(--ink);padding:40px 14px 14px;display:grid;align-content:start;gap:10px;font-size:12px;position:relative}
+.scr::before{content:"";position:absolute;top:10px;left:50%;width:80px;height:22px;margin-left:-40px;border-radius:20px;background:#0B0C0E}
+.scr .top{display:flex;justify-content:space-between;align-items:center}
+.scr .top b{font-size:16px;letter-spacing:-.02em}
+.scr .pill{background:var(--red);color:#fff;border-radius:999px;padding:3px 9px;font-weight:700;font-size:10px}
+.scr .card{background:#fff;border-radius:16px;padding:12px;display:grid;gap:7px;box-shadow:0 1px 0 var(--line)}
+.scr .card small{color:var(--muted);font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+.task{display:grid;grid-template-columns:18px 1fr auto;gap:8px;align-items:center}
+.task em{font-style:normal;color:var(--muted);font-size:10px}
+.task i{width:18px;height:18px;border-radius:6px;border:1.5px solid var(--light);display:grid;place-items:center;transition:background .3s,border-color .3s}
+.task i::after{content:"";width:8px;height:4px;border:solid #fff;border-width:0 0 2px 2px;transform:rotate(-45deg) translate(1px,-1px);opacity:0;transition:opacity .3s}
+.task.done i{background:var(--red);border-color:var(--red)}.task.done i::after{opacity:1}
+.task.done span{color:var(--muted);text-decoration:line-through}
+.bar{height:8px;border-radius:8px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;width:var(--w,0%);background:linear-gradient(90deg,var(--red),var(--coral));border-radius:8px;transition:width 1.4s var(--ease)}
+.sched{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.sched span{text-align:center;padding:6px 0;border-radius:8px;background:var(--soft);font-weight:600;font-size:10px;display:grid;gap:2px}
+.sched span em{font-style:normal;font-size:8px;color:var(--muted)}
+.sched span.cur{background:var(--ink);color:#fff}
+.row{display:flex;justify-content:space-between;gap:8px}
+.row b{font-weight:700}
+.fb{background:var(--pink);color:var(--ink);border-radius:12px;padding:9px 11px;font-size:11px;line-height:1.35}
+@media (max-width:980px){.plat{grid-template-columns:1fr}}
+@media (max-width:560px){.phones{gap:12px}.phone{border-radius:34px;padding:8px}.scr{border-radius:27px;padding:34px 9px 9px;font-size:10px}.phone.p-b{top:36px}}
+
+/* team */
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.tm{display:grid;gap:12px}
+.tm .ph{border-radius:22px;aspect-ratio:3/4}
+.tm b{font-size:19px;letter-spacing:-.02em}
+.tm span{color:var(--muted);font-size:14px;margin-top:-8px}
+@media (max-width:900px){.team{grid-template-columns:1fr 1fr}}
+
+/* faq */
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(36px,6vw,90px);align-items:start}
+.faq .side{position:sticky;top:calc(var(--hdr) + 20px);display:grid;gap:22px}
+.qa{border-top:1px solid var(--line)}
+.qa:last-child{border-bottom:1px solid var(--line)}
+.qa button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;background:none;border:0;padding:24px 0;font:700 clamp(18px,1.7vw,22px)/1.3 var(--f);letter-spacing:-.015em;color:var(--ink);text-align:left;cursor:pointer}
+.qa button i{flex:none;width:36px;height:36px;border-radius:50%;background:var(--soft);position:relative;transition:background .3s,transform .45s var(--ease)}
+.qa button i::before,.qa button i::after{content:"";position:absolute;left:50%;top:50%;width:14px;height:2px;margin:-1px 0 0 -7px;background:var(--ink);transition:background .3s}
+.qa button i::after{transform:rotate(90deg)}
+.qa.open button i{background:var(--red);transform:rotate(135deg)}
+.qa.open button i::before,.qa.open button i::after{background:#fff}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}
+.qa.open .ans{grid-template-rows:1fr}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{color:var(--grey);padding:0 50px 24px 0;max-width:62ch}
+@media (max-width:900px){.faq{grid-template-columns:1fr}.faq .side{position:static}}
+
+/* apply */
+.apply{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:start;position:relative}
+.apply h2{font-size:clamp(40px,6vw,88px);line-height:.92}
+.contacts{display:grid;gap:10px;margin-top:34px}
+.ct{display:flex;justify-content:space-between;align-items:center;gap:12px;background:rgba(20,22,26,.18);border-radius:18px;padding:16px 18px;min-width:0}
+.ct div{min-width:0}
+.ct small{display:block;color:var(--pink);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.ct b{font-size:18px;overflow-wrap:anywhere}
+.ct button,.ct a.mini{flex:none;background:#fff;color:var(--ink);border:0;border-radius:999px;padding:8px 14px;font:600 13px var(--f);cursor:pointer;text-decoration:none;transition:background .2s,color .2s}
+.ct button:hover,.ct a.mini:hover{background:var(--ink);color:#fff}
+form.f{background:#fff;color:var(--ink);border-radius:var(--r);padding:clamp(24px,3vw,38px);display:grid;gap:18px;box-shadow:0 40px 80px rgba(20,22,26,.25)}
+.f label{display:grid;gap:8px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.f input{font:500 18px var(--f);color:var(--ink);border:0;border-bottom:2px solid var(--line);padding:10px 0;background:transparent;outline:none;transition:border-color .3s;width:100%}
+.f input:focus{border-color:var(--red)}
+.f fieldset{border:0;padding:0;margin:0;display:grid;gap:10px}
+.f legend{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;padding:0}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts label{display:block;text-transform:none;letter-spacing:0;font-size:15px;font-weight:600;color:var(--ink)}
+.opts input{position:absolute;opacity:0;width:1px;height:1px}
+.opts span{display:inline-block;padding:9px 15px;border-radius:999px;background:var(--soft);cursor:pointer;transition:background .25s,color .25s}
+.opts input:checked+span{background:var(--ink);color:#fff}
+.opts input:focus-visible+span{outline:3px solid var(--coral);outline-offset:2px}
+.f .btn{width:100%;margin-top:6px}
+.f .msg{font-size:14px;color:var(--grey);min-height:1.4em}
+.f .msg.ok{color:#1F8A4C;font-weight:600}
+.f .msg.err{color:var(--red);font-weight:600}
+@media (max-width:900px){.apply{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:var(--ink);color:var(--muted);font-size:15px;padding-block:80px 30px;overflow:hidden}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px;margin-bottom:50px}
+.flogo{height:64px;width:auto;display:block;margin-bottom:22px}
+.fgrid .slogan{font-size:clamp(26px,3vw,40px);font-weight:800;letter-spacing:-.03em;line-height:1.05;color:#fff}
+.fgrid .slogan span{color:var(--red)}
+.fgrid blockquote{margin:18px 0 0;color:var(--light);font-size:16px;font-style:italic;max-width:36ch}
+.fgrid ul{display:grid;gap:8px}
+.fgrid li b{color:#fff;font-weight:600}
+.fgrid a{color:var(--light);text-decoration:none}
+.fgrid a:hover{color:#fff}
+.bigword{display:flex;justify-content:space-between;font-weight:900;font-size:clamp(80px,24vw,380px);letter-spacing:-.07em;line-height:.8;color:#fff;margin-bottom:30px}
+.bigword span{display:inline-block;will-change:transform}
+.bigword span:nth-child(3){color:var(--red)}
+footer .fgrid{margin-bottom:56px}
+.soc{display:flex;gap:10px;margin-bottom:6px}
+.soc a{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.08);color:#fff;transition:background .3s,transform .3s}
+.soc a:hover{background:var(--red);transform:translateY(-3px)}
+.soc svg{width:22px;height:22px;fill:currentColor}
+.ico{width:20px;height:20px;fill:currentColor;flex:none}
+.faq-btns{display:flex;flex-wrap:wrap;gap:10px}
+.pbtn{margin-top:4px;padding:12px 18px;font-size:14px}
+.dmodal .plist{display:grid;gap:10px;margin:8px 0 6px}
+.dmodal h3{font-size:24px;margin:6px 6px 14px}
+footer .row2{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center;border-top:1px solid rgba(255,255,255,.1);padding-top:24px}
+@media (max-width:900px){.fgrid{grid-template-columns:1fr}}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+
+<!-- ============ PRELOADER / CURSOR ============ -->
+
+<div class="cur" aria-hidden="true"><span></span></div><div class="cur-dot" aria-hidden="true"></div>
+
+<!-- ============ 1–2 HEADER + EVENT BAR ============ -->
+<header class="hdr" id="hdr">
+  <div class="nav">
+    <div class="wrap">
+      <a class="logo" href="#top" aria-label="Bilim International School, на главную"><img src="photos/logo-white.png" alt="Bilim International School" width="847" height="529"></a>
+      <nav class="links" aria-label="Разделы">
+        <div class="dd" id="dd">
+          <button type="button" aria-expanded="false" aria-controls="ddmenu">Программы</button>
+          <div class="menu" id="ddmenu">
+            <a href="#pre-ossd">Pre-OSSD <small>8–9 кл.</small></a>
+            <a href="#ossd">OSSD <small>10–11 кл.</small></a>
+            <a href="#courses">Отдельные курсы <small>English, IELTS, SAT</small></a>
+          </div>
+        </div>
+        <a href="#career">Профориентация</a>
+        <a href="#admission">Поступление</a>
+        <a href="#abroad">Программы за рубежом</a>
+        <a href="#news">Новости</a>
+        <a href="#about">О школе</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn btn-red cta-h mag" href="#apply">Записаться на консультацию</a>
+      <button class="burger" type="button" id="burger" aria-label="Открыть меню" aria-controls="mmenu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="mmenu" id="mmenu" aria-hidden="true">
+  <div class="mtop"><span class="eyebrow">Меню</span><button class="burger" type="button" id="mclose" aria-label="Закрыть меню" style="display:grid">✕</button></div>
+  <nav aria-label="Разделы (мобильное меню)">
+    <div class="msub" id="msub"><button type="button" aria-expanded="false">Программы <span>+</span></button>
+      <div><a href="#pre-ossd">Pre-OSSD · 8–9 классы</a><a href="#ossd">OSSD · 10–11 классы</a><a href="#courses">Отдельные курсы</a></div>
+    </div>
+    <a href="#career">Профориентация</a>
+    <a href="#admission">Поступление</a>
+    <a href="#abroad">Программы за рубежом</a>
+    <a href="#news">Новости</a>
+    <a href="#about">О школе</a>
+    <a href="#faq">Частые вопросы</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <div class="mfoot"><a class="btn btn-red" href="#apply">Записаться на консультацию</a><span>+7 775 390 34 09 · Атырау, пр. Султана Бейбарыса, 464</span></div>
+</div>
+
+<main>
+<div class="pg" data-page="home">
+<!-- ============ 3 FIRST SCREEN ============ -->
+<section id="top">
+  <div class="frame" id="frame">
+    <figure class="ph fimg" data-slot="hero" data-cursor="Bilim" style="margin:0"><img src="photos/hero-map.jpg" alt="Карта мира с подсветкой и логотип Bilim на стене школы">
+      
+      
+    </figure>
+    <div class="shade"></div>
+  </div>
+    <div class="wrap hero-copy">
+     <div class="hc-main">
+      <div class="eyebrow">Built Different. Built for More.</div>
+      <h1 class="split" id="h1">От выбора направления <span class="redtxt">до поступления</span> в <span class="rot" id="rot"><span class="rw on">университет</span><span class="rw" aria-hidden="true">Канаду</span><span class="rw" aria-hidden="true">США</span><span class="rw" aria-hidden="true">Китай</span><span class="rw" aria-hidden="true">Дубай</span></span></h1>
+      <p class="lead">Помогаем ученикам 8–11 классов разобраться в своих интересах, подготовиться к международному обучению и поступлению в топовые университеты мира.</p>
+      <div class="cta">
+        <a class="btn btn-red mag" href="#apply">Записаться на консультацию <span class="arr">→</span></a>
+        <a class="btn btn-ghost mag" href="#apply" data-interest="Профтест">Записаться на профтест</a>
+      </div>
+     </div>
+     <div class="hside">
+     <aside class="hnews" aria-label="Актуально сейчас">
+       <div class="hn-head"><span class="eyebrow"><i class="live"></i>Актуально сейчас</span><div class="hn-nav"><button type="button" id="hnprev" aria-label="Предыдущая новость">←</button><button type="button" id="hnnext" aria-label="Следующая новость">→</button></div></div>
+       <div class="hn-list" id="hnlist"><a class="hc" href="#abroad"><span class="tag">Событие</span><b>Профориентационная программа в Китае</b><p>Профориентационная программа для учеников, Китай.</p><div class="by"><i>B</i><span>Bilim International School</span><em>25.10 – 08.11.2026</em></div></a><a class="hc" href="#news"><span class="tag">Олимпиада</span><b>Horizon Math: золото и три серебра</b><p>Maxim Sagyndyk взял золото, ещё трое учеников — серебро.</p><div class="by"><i>B</i><span>Bilim International School</span></div></a><a class="hc" href="#news"><span class="tag">Олимпиада</span><b>Greenwich Olympiad: 1 место</b><p>Лейра заняла первое место в номинации Art &amp; Design.</p><div class="by"><i>B</i><span>Bilim International School</span></div></a></div>
+       <div class="hn-foot"><span class="hn-dots" id="hndots"></span><a href="#news">Все новости →</a></div>
+     </aside>
+     </div>
+    </div>
+  <div class="hint" id="hint"><i></i>Листай вниз</div>
+</section>
+
+
+<!-- photo strip -->
+<section class="pstrip" aria-label="Жизнь школы в фото"><div class="ptrack" id="ptrack"><figure class="pc" style="--r:-3deg"><img src="photos/t/hero.jpg" alt="Выпуск 2026" loading="lazy" width="480" height="600"><figcaption>Выпуск 2026</figcaption></figure><figure class="pc" style="--r:2deg"><img src="photos/t/class-girls.jpg" alt="Урок на английском" loading="lazy" width="480" height="600"><figcaption>Урок на английском</figcaption></figure><figure class="pc" style="--r:-2deg"><img src="photos/t/present-point.jpg" alt="Объясняю у доски" loading="lazy" width="480" height="600"><figcaption>Объясняю у доски</figcaption></figure><figure class="pc" style="--r:3deg"><img src="photos/t/board-canada.jpg" alt="Поездка в Канаду" loading="lazy" width="480" height="600"><figcaption>Поездка в Канаду</figcaption></figure><figure class="pc" style="--r:-3deg"><img src="photos/t/laptop-girl.jpg" alt="Иду на урок" loading="lazy" width="480" height="600"><figcaption>Иду на урок</figcaption></figure><figure class="pc" style="--r:2deg"><img src="photos/t/mun.jpg" alt="Выступаю перед классом" loading="lazy" width="480" height="600"><figcaption>Выступаю перед классом</figcaption></figure><figure class="pc" style="--r:-2deg"><img src="photos/t/welcome-bis.jpg" alt="Welcome to BIS" loading="lazy" width="480" height="600"><figcaption>Welcome to BIS</figcaption></figure><figure class="pc" style="--r:3deg"><img src="photos/t/stairs.jpg" alt="Перемена" loading="lazy" width="480" height="600"><figcaption>Перемена</figcaption></figure><figure class="pc" style="--r:-2deg"><img src="photos/t/lesson-laptop.jpg" alt="Работаю над проектом" loading="lazy" width="480" height="600"><figcaption>Работаю над проектом</figcaption></figure><figure class="pc" style="--r:2deg"><img src="photos/t/grad-smile.jpg" alt="Сделала это" loading="lazy" width="480" height="600"><figcaption>Сделала это</figcaption></figure><figure class="pc" style="--r:-3deg" aria-hidden="true"><img src="photos/t/hero.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Выпуск 2026</figcaption></figure><figure class="pc" style="--r:2deg" aria-hidden="true"><img src="photos/t/class-girls.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Урок на английском</figcaption></figure><figure class="pc" style="--r:-2deg" aria-hidden="true"><img src="photos/t/present-point.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Объясняю у доски</figcaption></figure><figure class="pc" style="--r:3deg" aria-hidden="true"><img src="photos/t/board-canada.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Поездка в Канаду</figcaption></figure><figure class="pc" style="--r:-3deg" aria-hidden="true"><img src="photos/t/laptop-girl.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Иду на урок</figcaption></figure><figure class="pc" style="--r:2deg" aria-hidden="true"><img src="photos/t/mun.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Выступаю перед классом</figcaption></figure><figure class="pc" style="--r:-2deg" aria-hidden="true"><img src="photos/t/welcome-bis.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Welcome to BIS</figcaption></figure><figure class="pc" style="--r:3deg" aria-hidden="true"><img src="photos/t/stairs.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Перемена</figcaption></figure><figure class="pc" style="--r:-2deg" aria-hidden="true"><img src="photos/t/lesson-laptop.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Работаю над проектом</figcaption></figure><figure class="pc" style="--r:2deg" aria-hidden="true"><img src="photos/t/grad-smile.jpg" alt="" loading="lazy" width="480" height="600"><figcaption>Сделала это</figcaption></figure></div></section>
+
+<section class="strip">
+  <div class="wrap">
+    <p class="lead rv">В Bilim International School ученики изучают академические предметы, проходят канадскую программу OSSD, участвуют в проектах и готовят документы для поступления. Обучение проходит в Атырау, параллельно с основной школой.</p>
+    <div class="facts">
+      <div class="rv"><b>Атырау</b><span>Офлайн, пр. Султана Бейбарыса, 464</span></div>
+      <div class="rv"><b>8–11 классы</b><span>Параллельно с основной школой</span></div>
+      <div class="rv"><b>Pre-OSSD и OSSD</b><span>Канадская программа</span></div>
+      <div class="rv"><b>Поступление</b><span>В университеты по всему миру</span></div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ============ 5 HELP ============ -->
+<section class="light sec" id="help">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Что мы делаем</div></div>
+    <div class="stack">
+      <div class="scard s1" style="--i:0"><div class="k">01</div><div><h3>Выбрать направление</h3><p>Разбираем интересы и сильные стороны ученика, знакомим с возможными направлениями обучения, обсуждаем дальнейшие шаги и составляем ИПР — индивидуальный план развития.</p></div></div>
+      <div class="scard s2" style="--i:1"><div class="k">02</div><div><h3>Подготовиться к учёбе</h3><p>Развиваем академический английский, предметные знания и навыки самостоятельной работы. В 8–9 классах предлагаем Pre-OSSD, в 10–11 — канадскую программу OSSD.</p></div></div>
+      <div class="scard s3" style="--i:2"><div class="k">03</div><div><h3>Собрать портфолио</h3><p>Помогаем участвовать в проектах, олимпиадах, MUN и волонтёрских инициативах, развивать собственные идеи и собирать результаты.</p></div></div>
+      <div class="scard s4" style="--i:3"><div class="k">04</div><div><h3>Подготовить к поступлению</h3><p>Подбираем университеты с учётом целей и бюджета семьи, проверяем требования, помогаем с документами и сопровождаем ученика с момента подачи заявки до получения студенческого билета.</p></div></div>
+    </div>
+    <div class="after"><a class="btn btn-red mag" href="#apply">Обсудить план подготовки <span class="arr">→</span></a></div>
+  </div>
+</section>
+
+<!-- ============ 6 START ============ -->
+<section class="dark glow grain sec" id="start">
+  <div class="pinbox">
+    <div class="wrap">
+      <div class="head"><div class="eyebrow">Маршрут</div><h2 class="split">С какого класса <span class="mut">начать</span></h2></div>
+      <div class="rprog"><i id="rfill"></i></div>
+    </div>
+    <div class="track" id="rtrack">
+      <div class="rc"><div class="n">8–11</div><div><span class="when">8–11 классы</span><h3>Профтест</h3><p>Помогаем разобраться в интересах и сильных сторонах ученика. Обсуждаем результаты с семьёй и намечаем дальнейший план обучения.</p><a class="more" href="#career">Подробнее →</a></div></div>
+      <div class="rc"><div class="n">8–9</div><div><span class="when">8–9 классы</span><h3>Pre-OSSD</h3><p>Академический английский, прикладная математика на английском, критическое мышление и проектная работа. Подготовка к обучению по международной программе.</p><a class="more" href="#pre-ossd">Подробнее →</a></div></div>
+      <figure class="rc ph" data-slot="start" data-cursor="Bilim" style="margin:0"><img src="photos/lesson-laptop.jpg" alt="Ученик Bilim на уроке английского с ноутбуком" onerror="this.remove()"><figcaption class="lbl"><b>ФОТО 03</b>Урок или работа над проектом</figcaption></figure>
+      <div class="rc"><div class="n">10–11</div><div><span class="when">10–11 классы</span><h3>OSSD</h3><p>Обучение по канадской программе параллельно с основной школой. Подбираем предметы с учётом выбранного направления и требований университетов.</p><a class="more" href="#ossd">Подробнее →</a></div></div>
+      <div class="rc hot"><div class="n">11</div><div><span class="when">11 класс</span><h3>Поступление</h3><p>Формируем список университетов, проверяем требования, готовим документы и сопровождаем подачу заявок.</p><a class="more" href="#admission">Подробнее →</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 14 UNIVERSITIES ============ -->
+<section class="unis" aria-labelledby="unis-h">
+  <div class="wrap"><h3 id="unis-h" class="rv">Университеты, от которых выпускники Bilim International School получили предложения о зачислении</h3></div>
+  <div class="utrack" id="utrack">
+    <span class="uni"><i>N</i>Nazarbayev University</span><span class="uni"><i>C</i>Cardiff University Kazakhstan</span><span class="uni"><i>T</i>University of Toronto Scarborough</span><span class="uni"><i>M</i>University of Michigan–Dearborn</span><span class="uni"><i>H</i>Harbin Institute of Technology, Shenzhen</span><span class="uni"><i>D</i>De Montfort University Dubai</span>
+    <span class="uni" aria-hidden="true"><i>N</i>Nazarbayev University</span><span class="uni" aria-hidden="true"><i>C</i>Cardiff University Kazakhstan</span><span class="uni" aria-hidden="true"><i>T</i>University of Toronto Scarborough</span><span class="uni" aria-hidden="true"><i>M</i>University of Michigan–Dearborn</span><span class="uni" aria-hidden="true"><i>H</i>Harbin Institute of Technology, Shenzhen</span><span class="uni" aria-hidden="true"><i>D</i>De Montfort University Dubai</span>
+  </div>
+</section>
+
+<!-- ============ 16 TESTIMONIALS ============ -->
+<section class="light sec" id="reviews">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Отзывы</div><h2 class="split">Что говорят <span class="mut">наши ученики</span></h2></div>
+    <div class="tst">
+      <div class="tq rv"><q>Отзыв ученика с текущего сайта</q><div class="who"><i></i>Имя, класс или университет</div></div>
+      <div class="tq rv"><q>Отзыв ученика с текущего сайта</q><div class="who"><i></i>Имя, класс или университет</div></div>
+      <div class="tq rv"><q>Отзыв ученика с текущего сайта</q><div class="who"><i></i>Имя, класс или университет</div></div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="about" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>О школе</h1><p>Bilim International School — канадская школа в Атырау для учеников 8–11 классов</p></div></div>
+<!-- ============ 4 ABOUT ============ -->
+<section class="light sec" id="about">
+  <div class="wrap about">
+    <div>
+      <div class="head" style="margin-bottom:24px"><div class="eyebrow">О школе</div></div>
+      <div class="txt">
+        <p class="rv">Bilim International School — канадская школа в Атырау, где ученики 8–11 классов готовятся к высшему международному образованию. Мы помогаем выбрать направление, составить план подготовки и грамотно пройти путь от постановки цели до подачи заявок в топовые мировые университеты.</p>
+        <p class="rv">Ученик продолжает учиться в своей основной школе. В Bilim International School он дополнительно занимается академическим английским и профильными предметами, работает над <a href="#portfolio">упаковкой портфолио</a> и готовится к поступлению в университет мечты.</p>
+        <p class="rv">Дополнительно можно пройти <a href="#courses">отдельный курс</a> или <a href="#career">профориентационный тест</a>, записаться на <a href="#pre-ossd">Pre-OSSD</a> или <a href="#ossd">OSSD</a>, обратиться за сопровождением при поступлении. Подходящий формат определяем на консультации с учеником и родителями.</p>
+      </div>
+    </div>
+    <div class="pic">
+      <figure class="ph pimg" data-slot="about" data-cursor="Bilim" style="margin:0"><img src="photos/welcome-bis.jpg" alt="Стенд «Welcome to BIS» с фотографиями учеников" onerror="this.remove()"><figcaption class="lbl"><b>ФОТО 02</b>Ученики на занятии</figcaption></figure>
+      <div class="partner rv"><small>Партнёр</small><b>London International Academy, Canada</b></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHOTO STRIP ============ -->
+<section class="dark glow grain strip-sec" id="life">
+  <div class="wrap"><div class="sec-head-row"><div class="head"><div class="eyebrow">Школа в кадре</div><h2 class="split">Уроки, проекты <span class="mut">и выпускной</span></h2></div><div class="rv" style="display:grid;gap:18px;justify-items:start"><p class="lead" style="max-width:38ch">Атырау, фотосессия учеников и выпускников 2026 года.</p><div class="gnav"><span class="ghint">Листайте или тяните</span><button type="button" id="gprev" aria-label="Назад">←</button><button type="button" id="gnext" aria-label="Вперёд">→</button></div></div></div></div>
+  <div class="gscroll" id="gscroll" tabindex="0" aria-label="Фотогалерея, листается горизонтально"><div class="gtrack" id="gtrack">
+    <figure class="h ph"><img src="photos/board-canada.jpg" alt="Доска с фотографиями из поездки учеников в Канаду" loading="lazy"><figcaption>Канада</figcaption></figure>
+    <figure class="v s ph"></figure>
+    <figure class="v ph"><img src="photos/lesson-laptop.jpg" alt="Ученик на уроке" loading="lazy"><figcaption>Урок</figcaption></figure>
+    <figure class="h ph"><img src="photos/board-china.jpg" alt="Доска с фотографиями из поездки в Китай" loading="lazy"><figcaption>Китай</figcaption></figure>
+    <figure class="v s ph"><img src="photos/welcome-bis.jpg" alt="Стенд Welcome to BIS" loading="lazy"></figure>
+    <figure class="h ph"><figcaption>Университеты</figcaption></figure>
+    <figure class="v ph"></figure>
+    <figure class="h s ph"></figure>
+    <figure class="v ph"><figcaption>2026</figcaption></figure>
+  </div></div>
+  <div class="gbar"><i id="gbar"></i></div>
+</section>
+
+<!-- ============ 22 TEAM ============ -->
+<section class="light sec" id="team">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Команда</div><h2 class="split">Команда <span class="mut">Bilim International School</span></h2></div>
+    <div class="team" id="team-grid">
+      <div class="tm"><figure class="ph" data-slot="team-1" data-cursor="Bilim" style="margin:0"><figcaption class="lbl"><b>ФОТО 08</b>Портрет</figcaption></figure><b>Имя Фамилия</b><span>Роль в команде</span></div>
+      <div class="tm"><figure class="ph" data-slot="team-2" data-cursor="Bilim" style="margin:0"><figcaption class="lbl"><b>ФОТО 09</b>Портрет</figcaption></figure><b>Имя Фамилия</b><span>Роль в команде</span></div>
+      <div class="tm"><figure class="ph" data-slot="team-3" data-cursor="Bilim" style="margin:0"><figcaption class="lbl"><b>ФОТО 10</b>Портрет</figcaption></figure><b>Имя Фамилия</b><span>Роль в команде</span></div>
+      <div class="tm"><figure class="ph" data-slot="team-4" data-cursor="Bilim" style="margin:0"><figcaption class="lbl"><b>ФОТО 11</b>Портрет</figcaption></figure><b>Имя Фамилия</b><span>Роль в команде</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 21 CABINET ============ -->
+<section class="soft sec" id="cabinet">
+  <div class="wrap plat">
+    <div>
+      <div class="eyebrow">Платформа</div>
+      <h2 class="split" style="margin-top:22px">Личный <span class="mut">кабинет</span></h2>
+      <p class="lead rv" style="margin-top:22px">У ученика и родителя есть доступ к личному кабинету: расписание, задания, дедлайны, оценки, обратная связь и прогресс по программе.</p>
+      <div class="feats">
+        <div class="rv"><i>✓</i><p><b>Расписание и дедлайны</b><span>Что, когда и к какому сроку.</span></p></div>
+        <div class="rv"><i>✓</i><p><b>Оценки и обратная связь</b><span>Комментарии преподавателя к каждому заданию.</span></p></div>
+        <div class="rv"><i>✓</i><p><b>Прогресс и оплаты</b><span>При необходимости в кабинете также отображается график оплат.</span></p></div>
+      </div>
+    </div>
+    <div class="phones" id="phones">
+      <div class="phone p-a"><div class="scr">
+        <div class="top"><b>Расписание</b><span class="pill">Ученик</span></div>
+        <div class="sched"><span>Пн<em>14</em></span><span class="cur">Вт<em>15</em></span><span>Ср<em>16</em></span><span>Чт<em>17</em></span><span>Пт<em>18</em></span></div>
+        <div class="card"><small>Задания и дедлайны</small>
+          <div class="task" data-t="0"><i></i><span>Essay: My future university</span><em>16.10</em></div>
+          <div class="task" data-t="1"><i></i><span>MDM4U: Unit test</span><em>17.10</em></div>
+          <div class="task" data-t="2"><i></i><span>Reading, unit 4</span><em>18.10</em></div>
+          <div class="task"><i></i><span>MUN: позиция страны</span><em>21.10</em></div>
+        </div>
+        <div class="card"><small>Обратная связь</small><div class="fb">«Сильная структура эссе. Добавь пример из своего опыта во второй абзац.»</div></div>
+        <div class="card"><small>Прогресс по программе</small><div class="bar"><i data-w="72%"></i></div><div class="row"><span>Выполнено</span><b>72%</b></div></div>
+      </div></div>
+      <div class="phone p-b"><div class="scr">
+        <div class="top"><b>Кабинет родителя</b><span class="pill">Родитель</span></div>
+        <div class="card"><small>Оценки</small>
+          <div class="row"><span>ENG4U</span><b>86</b></div><div class="bar"><i data-w="86%"></i></div>
+          <div class="row"><span>MDM4U</span><b>91</b></div><div class="bar"><i data-w="91%"></i></div>
+        </div>
+        <div class="card"><small>Ближайшие дедлайны</small>
+          <div class="row"><span>Эссе</span><b>16 окт</b></div>
+          <div class="row"><span>Unit test</span><b>17 окт</b></div>
+        </div>
+        <div class="card"><small>График оплат</small><div class="row"><span>Ноябрь</span><b>до 5 ноя</b></div></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="career" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Профориентация</h1><p>Профтест и консультация с профориентологом</p></div></div>
+<!-- ============ 7 CAREER ============ -->
+<section class="redsec grain sec" id="career">
+  <div class="wrap career">
+    <div class="head" style="margin:0">
+      <div class="eyebrow">Профориентация</div>
+      <h2 class="split">Сделать самый подходящий выбор</h2>
+      <p class="lead rv">Ученик проходит профориентационный тест, затем обсуждает результаты с профориентологом и родителями.</p>
+      <div class="rv"><a class="btn btn-white mag" href="#apply" data-interest="Профтест">Записаться на профтест <span class="arr">→</span></a></div>
+    </div>
+    <div>
+      <p class="rv" style="color:var(--pink);font-weight:700;margin-bottom:10px">По итогам определяем:</p>
+      <ol class="outs">
+        <li class="rv">какие направления обучения рассмотреть</li>
+        <li class="rv">каким предметам уделить больше внимания</li>
+        <li class="rv">какие проекты и занятия выбрать</li>
+        <li class="rv">к каким экзаменам готовиться</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="pre-ossd" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Pre-OSSD</h1><p>Подготовка к международной программе · 8–9 классы</p></div></div>
+<!-- ============ 8 PRE-OSSD ============ -->
+<section class="light sec" id="pre-ossd">
+  <div class="wrap pre-grid">
+    <div>
+      <div class="head" style="margin:0"><div class="eyebrow">Pre-OSSD · 8–9 классы</div><h2 class="split">Pre-OSSD <span class="mut">· подготовка к международной программе</span></h2>
+        <p class="lead rv">Pre-OSSD помогает заранее подготовиться к обучению на английском языке и академической нагрузке старших классов.</p></div>
+      <div class="stats">
+        <div class="stat rv"><b data-count="3">3</b><span>занятия в неделю</span></div>
+        <div class="stat rv"><b data-count="9">9</b><span>месяцев</span></div>
+        <div class="stat rv"><b class="sm">офлайн</b><span>в Атырау</span></div>
+      </div>
+      <div class="rv" style="margin-top:30px"><a class="btn btn-red mag" href="#apply" data-interest="Pre-OSSD">Записаться на консультацию <span class="arr">→</span></a></div>
+    </div>
+    <div>
+      <p class="rv" style="font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:12px">В программе</p>
+      <ul class="plist">
+        <li class="rv">Академический английский</li>
+        <li class="rv">Прикладная математика на английском</li>
+        <li class="rv">Критическое мышление</li>
+        <li class="rv">Проектная работа</li>
+        <li class="rv">Волонтёрство и социальные инициативы</li>
+        <li class="rv">Первые шаги в формировании портфолио</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="ossd" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>OSSD</h1><p>Канадская программа параллельно с основной школой · 10–11 классы</p></div></div>
+<!-- ============ 9–10 OSSD ============ -->
+<section class="dark glow grain sec" id="ossd">
+  <div class="wrap">
+    <div class="ossd-top">
+      <div class="head" style="margin:0">
+        <div class="eyebrow">OSSD · 10–11 классы</div>
+        <h2 class="split">OSSD — канадская программа <span class="mut">параллельно с основной школой</span></h2>
+        <div class="txt">
+          <p class="rv">Ученик продолжает учиться в своей школе и параллельно проходит канадскую программу. После выполнения её требований он получает <button type="button" class="dlink" data-open="dipl-modal">Ontario Secondary School Diploma (OSSD)</button> — аттестат о среднем образовании провинции Онтарио.</p>
+          <p class="rv">С OSSD можно подавать документы на бакалавриат в университеты, которые принимают эту квалификацию. Требования к предметам, оценкам и английскому зависят от университета и выбранной программы.</p>
+        </div>
+        <div class="rv" style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn btn-red mag" href="#apply" data-interest="OSSD">Записаться на консультацию <span class="arr">→</span></a><button type="button" class="btn btn-ghost" data-open="dipl-modal">Посмотреть аттестат выпускника</button></div>
+      </div>
+      <div class="dipl rv" role="button" tabindex="0" data-open="dipl-modal" title="Посмотреть аттестат"><small>Ontario Secondary School Diploma</small><b>Аттестат провинции Онтарио, Канада</b><span>Подача на бакалавриат в университеты, которые принимают OSSD</span><em class="dsee">Посмотреть аттестат ученика →</em></div>
+    </div>
+    <div class="subj-h"><h3 class="split">Предметы OSSD <span class="tbc">уточнить коды</span></h3><p class="rv">Набор предметов формируется с учётом будущего направления и требований университетов. Предметы Grade 12:</p></div>
+    <div class="subjects" id="subjects">
+      <div class="sj"><code>ENG4U</code><span>English</span></div>
+      <div class="sj"><code>MHF4U</code><span>Advanced Functions</span></div>
+      <div class="sj"><code>MDM4U</code><span>Mathematics of Data Management</span></div>
+      <div class="sj"><code>MCV4U</code><span>Calculus and Vectors</span></div>
+      <div class="sj"><code>SPH4U</code><span>Physics</span></div>
+      <div class="sj"><code>SCH4U</code><span>Chemistry</span></div>
+      <div class="sj"><code>BBB4M</code><span>International Business</span></div>
+      <div class="sj"><code>BAT4M</code><span>Financial Accounting</span></div>
+    </div>
+    <div class="extra rv"><b>Дополнительно</b><span class="chip">Академический английский</span><span class="chip">Подготовка к IELTS</span><span class="chip">SAT <span class="tbc">уточнить</span></span><span class="chip">Профориентация</span><span class="chip">Работа над портфолио</span><span class="chip">Сопровождение поступления</span></div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="admission" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Поступление</h1><p>Сопровождение от выбора университетов до студенческого билета</p></div></div>
+<!-- ============ 13 ADMISSION ============ -->
+<section class="dark glow grain sec" id="admission">
+  <div class="wrap adm">
+    <div class="side">
+      <div class="eyebrow">Поступление</div>
+      <h2 class="split">Сопровождение <span class="mut">при поступлении</span></h2>
+      <p class="lead rv">Помогаем выбрать направление и университеты, подготовить заявки и разобраться в полученных предложениях.</p>
+      <p class="note rv">Страны и бюджет семья определяет вместе с карьерным консультантом с учётом целей и возможностей.</p>
+      <div class="rv"><a class="btn btn-red mag" href="#apply" data-interest="Поступление">Обсудить поступление <span class="arr">→</span></a></div>
+    </div>
+    <div>
+      <p class="rv" style="font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px">Мы помогаем</p>
+      <ol class="tl" id="tl"><span class="tfill" id="tfill"></span>
+        <li data-n="1">Составить список университетов</li>
+        <li data-n="2">Проверить требования и сроки подачи</li>
+        <li data-n="3">Определить необходимые экзамены</li>
+        <li data-n="4">Собрать документы и запросить рекомендации</li>
+        <li data-n="5">Подготовить мотивационные письма</li>
+        <li data-n="6">Подать заявки</li>
+        <li data-n="7">Сравнить полученные предложения</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 15 RESULTS ============ -->
+<section class="soft sec" id="results">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Выпуск 2026</div><h2 class="split">Результаты <span class="mut">выпускников 2026</span></h2></div>
+    <div class="results" id="results-grid">
+      <div class="res"><span class="yr">2026</span><div class="who"><span class="av">A</span><b>Aida</b></div><div class="uni-n">Asia Pacific University, Malaysia — Digital Marketing <span class="tbc">уточнить</span></div><p>Также получила предложения о зачислении от Middlesex University Dubai и Fontys University of Applied Sciences.</p></div>
+      <div class="res"><span class="yr">2026</span><div class="who"><span class="av">T</span><b>Taira</b></div><div class="uni-n">Queen Mary University of London <span class="tbc">уточнить</span></div></div>
+      <div class="res"><span class="yr">2026</span><div class="who"><span class="av">A</span><b>Amina</b></div><div class="uni-n">Rome University of Fine Arts <span class="tbc">уточнить</span></div></div>
+      <div class="res"><span class="yr">2026</span><div class="who"><span class="av">N</span><b>Nuri</b></div><div class="uni-n">Coventry University Kazakhstan — грант <span class="tbc">уточнить</span></div></div>
+      <div class="res"><span class="yr">2026</span><div class="who"><span class="av">D</span><b>Dana</b></div><div class="uni-n">King’s College London <span class="tbc">уточнить</span></div></div>
+      <div class="res"><span class="yr">2026</span><div class="who"><span class="av">A</span><b>Alikhan</b></div><div class="uni-n">Asia Pacific University, Malaysia <span class="tbc">уточнить</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11–12 PORTFOLIO + MUN ============ -->
+<section class="light sec" id="portfolio">
+  <div class="wrap">
+    <div class="mun" id="mun">
+      <figure class="ph pimg" data-slot="mun" data-cursor="MUN" style="margin:0"><figcaption class="lbl"><b>ФОТО 04</b>Конференция MUN</figcaption></figure>
+      <div>
+        <div class="head" style="margin-bottom:24px"><div class="eyebrow">Model United Nations</div><h2 class="split">MUN и международные проекты</h2></div>
+        <div class="txt">
+          <p class="rv">Готовим учеников к участию в Model United Nations — «Модели ООН» — и других образовательных проектах.</p>
+          <p class="rv">Ученики исследуют темы, работают с источниками, учатся аргументировать свою позицию, выступать на английском и вести переговоры.</p>
+          <p class="rv">Конференции и результаты участия — в разделе <a href="#news">«Новости»</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="courses" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Отдельные курсы</h1><p>English, IELTS, SAT и другие курсы</p></div></div>
+<!-- ============ 17 COURSES ============ -->
+<section class="dark glow grain sec" id="courses">
+  <div class="wrap">
+    <div class="sec-head-row">
+      <div class="head"><div class="eyebrow">Курсы</div><h2 class="split">Отдельные курсы</h2><p class="lead rv">Можно выбрать отдельное направление подготовки.</p></div>
+      <a class="btn btn-ghost mag rv" href="#apply" data-interest="Курсы">Узнать расписание <span class="arr">→</span></a>
+    </div>
+    <div class="courses" id="courses-grid">
+      <div class="course">General English<i>↗</i></div>
+      <div class="course">Academic English<i>↗</i></div>
+      <div class="course">IELTS<i>↗</i></div>
+      <div class="course">Прикладная математика<i>↗</i></div>
+      <div class="course">Олимпиадная математика<i>↗</i></div>
+      <div class="course">SAT<i>↗</i></div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="abroad" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Программы за рубежом</h1></div></div>
+<!-- ============ 18 ABROAD ============ -->
+<section class="light sec" id="abroad">
+  <div class="wrap">
+    <div class="head"><div class="eyebrow">Программы за рубежом</div><h2 class="split">Образовательные программы <span class="mut">за рубежом</span></h2>
+      <p class="lead rv">Краткосрочные образовательные программы дают ученикам возможность учиться в международной среде, знакомиться с университетами и получать академический опыт за рубежом.</p></div>
+    <div class="abroad">
+      <div class="ticket rv">
+        <div class="main">
+          <div class="tags"><span>Канада</span><span>Лето 2026</span><span>Архив программы</span></div>
+          <div><h3>London International Academy</h3><p style="color:var(--light);margin-top:8px">8 июля – 19 августа</p></div>
+          <dl><div><dt>Обучение</dt><dd>220 часов</dd></div><div><dt>Кредиты</dt><dd>2 кредита OSSD</dd></div><div><dt>Курс</dt><dd>ENG12 — English <span class="tbc">уточнить</span></dd></div><div><dt>Курс</dt><dd>Data Management</dd></div></dl>
+        </div>
+        <div class="stub"><small>Кредиты</small><b>2</b><small>OSSD</small></div>
+      </div>
+      <div class="also rv">
+        <div><p style="font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">Также <span class="tbc">уточнить</span></p>
+          <div class="flags"><span>Великобритания <i>→</i></span><span>Малайзия <i>→</i></span><span>Китай <i>→</i></span></div></div>
+        <a class="btn btn-red mag" href="#apply" data-interest="Программы за рубежом">Узнать о программах <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="news" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Новости</h1></div></div>
+<!-- ============ 20 NEWS ============ -->
+<section class="light sec" id="news">
+  <div class="wrap">
+    <div class="sec-head-row">
+      <div class="head"><div class="eyebrow">Новости</div><h2 class="split">Новости</h2></div>
+      <a class="btn btn-ghost mag rv" href="https://mybilim.kz/news/" target="_blank" rel="noopener">Все новости <span class="arr">→</span></a>
+    </div>
+    <div class="news">
+      <a class="nw rv" href="#abroad"><figure class="ph" data-slot="news-1" data-cursor="Читать" style="margin:0"><img src="photos/board-china.jpg" alt="Доска с фотографиями из поездки учеников в Китай" onerror="this.remove()"><figcaption class="lbl"><b>ФОТО 05</b>Фото новости</figcaption></figure><small>Дата новости</small><h3>Профориентационная программа в Китае</h3><p>25 октября – 8 ноября 2026 года, регистрация до 10 октября.</p></a>
+      <a class="nw rv" href="#news"><figure class="ph" data-slot="news-2" data-cursor="Читать" style="margin:0"><figcaption class="lbl"><b>ФОТО 06</b>Фото новости</figcaption></figure><small>Дата новости</small><h3>Horizon Math: золото и три серебра</h3><p>Maxim Sagyndyk взял золото, ещё трое учеников — серебро.</p></a>
+      <a class="nw rv" href="#news"><figure class="ph" data-slot="news-3" data-cursor="Читать" style="margin:0"><figcaption class="lbl"><b>ФОТО 07</b>Фото новости</figcaption></figure><small>Дата новости</small><h3>Greenwich Olympiad: 1 место в Art &amp; Design</h3><p>Лейра заняла первое место в творческой номинации.</p></a>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="faq" hidden>
+<div class="pband"><div class="wrap"><a class="crumb" href="#top">← Главная</a><h1>Частые вопросы</h1></div></div>
+<!-- ============ 23 FAQ ============ -->
+<section class="soft sec" id="faq">
+  <div class="wrap faq">
+    <div class="side">
+      <div class="eyebrow">FAQ</div>
+      <h2 class="split">Частые вопросы</h2>
+      <p class="lead rv">Не нашли ответ? Напишите нам.</p>
+      <div class="rv faq-btns"><a class="btn btn-red mag" href="https://wa.me/77753903409" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Написать в WhatsApp</a><button type="button" class="btn btn-ghost" data-open="price-modal">Прайс-лист</button></div>
+    </div>
+    <div id="qas">
+      <div class="qa"><button type="button" aria-expanded="false">С какого класса лучше начать?<i></i></button><div class="ans"><div><p>Pre-OSSD рассчитан на учеников 8–9 классов: есть время усилить академический английский и подготовиться к международной программе. Для 10–11 классов маршрут определяем индивидуально после диагностики.</p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">Можно прийти только на профтест?<i></i></button><div class="ans"><div><p>Да. Профориентационное тестирование — отдельная услуга.</p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">Справится ли ученик с основной школой и дополнительной программой?<i></i></button><div class="ans"><div><p>Нагрузку оцениваем на консультации с учётом класса, уровня английского и текущего расписания. Для 8–9 классов Pre-OSSD позволяет входить в международный формат постепенно.</p><p><b>Наше расписание составлено с учётом основного учебного графика учеников.</b></p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">Какой уровень английского нужен?<i></i></button><div class="ans"><div><p>Уровень определяем на входном тестировании. Для 8–9 классов Pre-OSSD помогает усилить академический английский. Для старших классов возможность обучения определяем индивидуально.</p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">Можно ли параллельно готовиться к поступлению в Казахстане?<i></i></button><div class="ans"><div><p>Да. Ученик продолжает обучение в основной школе. План подготовки к поступлению составляем с учётом требований выбранных университетов.</p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">С OSSD точно не нужен Foundation?<i></i></button><div class="ans"><div><p>Требования определяет конкретный университет и программа. OSSD позволяет подавать документы напрямую на программы бакалавриата во многие университеты при выполнении их академических и языковых требований.</p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">Сколько стоит обучение?<i></i></button><div class="ans"><div><p>Стоимость зависит от программы и формата обучения. Цены на программы и услуги собраны в прайс-листе.</p><p><button type="button" class="btn btn-red pbtn" data-open="price-modal">Открыть прайс-лист →</button></p></div></div></div>
+      <div class="qa"><button type="button" aria-expanded="false">Вы гарантируете поступление?<i></i></button><div class="ans"><div><p>Решение о зачислении принимает университет. Школа отвечает за подготовку и сопровождение: академическую траекторию, документы, сроки и качество подачи.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+</div>
+<div class="pg" data-page="all">
+<!-- ============ 24 APPLY + CONTACTS ============ -->
+<section class="redsec grain sec" id="apply">
+  <div class="wrap apply">
+    <div id="contacts">
+      <div class="eyebrow">Запись</div>
+      <h2 class="split" style="margin-top:22px">Запишитесь на консультацию</h2>
+      <p class="lead rv" style="margin-top:22px">Обсудим класс, уровень английского, академические результаты, интересы и планы по поступлению. Определим цель и подберём подходящую программу.</p>
+      <div class="contacts">
+        <div class="ct rv"><div><small>Телефон</small><b>+7 775 390 34 09</b></div><button type="button" data-copy="+7 775 390 34 09">Копировать</button></div>
+        <div class="ct rv"><div><small>Адрес</small><b>Атырау, пр. Султана Бейбарыса, 464</b></div><button type="button" data-copy="Атырау, пр. Султана Бейбарыса, 464">Копировать</button></div>
+        <div class="ct rv"><div><small>WhatsApp</small><b>+7 775 390 34 09</b></div><a class="mini" href="https://wa.me/77753903409" target="_blank" rel="noopener">Написать</a></div>
+      </div>
+    </div>
+    <form class="f rv" id="form" novalidate>
+      <label for="f-name">Имя<input id="f-name" name="name" autocomplete="name" required placeholder="Как к вам обращаться"></label>
+      <label for="f-phone">Телефон<input id="f-phone" name="phone" type="tel" autocomplete="tel" required placeholder="+7 ___ ___ __ __"></label>
+      <fieldset><legend>Класс</legend><div class="opts">
+        <label><input type="radio" name="grade" id="g8" value="8"><span>8</span></label>
+        <label><input type="radio" name="grade" id="g9" value="9"><span>9</span></label>
+        <label><input type="radio" name="grade" id="g10" value="10"><span>10</span></label>
+        <label><input type="radio" name="grade" id="g11" value="11"><span>11</span></label>
+        <label><input type="radio" name="grade" id="gx" value="другое"><span>Другое</span></label>
+      </div></fieldset>
+      <fieldset><legend>Что интересует</legend><div class="opts" id="interest">
+        <label><input type="checkbox" name="i" id="i1" value="Профтест"><span>Профтест</span></label>
+        <label><input type="checkbox" name="i" id="i2" value="Pre-OSSD"><span>Pre-OSSD</span></label>
+        <label><input type="checkbox" name="i" id="i3" value="OSSD"><span>OSSD</span></label>
+        <label><input type="checkbox" name="i" id="i4" value="Поступление"><span>Поступление</span></label>
+        <label><input type="checkbox" name="i" id="i5" value="Курсы"><span>Курсы</span></label>
+        <label><input type="checkbox" name="i" id="i6" value="Программы за рубежом"><span>Программы за рубежом</span></label>
+        <label><input type="checkbox" name="i" id="i7" value="Другое"><span>Другое</span></label>
+      </div></fieldset>
+      <button class="btn btn-red" type="submit">Записаться на консультацию <span class="arr">→</span></button>
+      <p class="msg" id="fmsg" role="status">Это макет: форма пока никуда не отправляет данные.</p>
+    </form>
+  </div>
+</section>
+</div>
+</main>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.23 3.7 8.23 8.24 0 4.54-3.69 8.24-8.23 8.24zm4.52-6.16c-.25-.12-1.46-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38A5.9 5.9 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13a5.9 5.9 0 0 0 2.13 1.38c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.9 5.9 0 0 0 2.13-1.38 5.9 5.9 0 0 0 1.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.9 5.9 0 0 0-1.38-2.13A5.9 5.9 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></symbol>
+</svg>
+
+<dialog class="dmodal" id="price-modal" aria-label="Прайс-лист">
+  <button type="button" class="dclose" aria-label="Закрыть">✕</button>
+  <h3>Прайс-лист</h3>
+  <figure class="ph dscan" data-slot="price" style="margin:0;aspect-ratio:1/1.414;max-height:70vh"><img src="photos/price-list.jpg" alt="Прайс-лист Bilim International School" onerror="this.remove()"><figcaption class="lbl"><b>ПРАЙС</b>Сюда встанет прайс-лист</figcaption></figure>
+  <p>Точную стоимость под вашу программу подскажем на консультации. <a href="https://wa.me/77753903409" target="_blank" rel="noopener" style="color:var(--coral,#FF5A3C);font-weight:700">Спросить в WhatsApp →</a></p>
+</dialog>
+
+<dialog class="dmodal" id="dipl-modal" aria-label="Аттестат OSSD">
+  <button type="button" class="dclose" aria-label="Закрыть">✕</button>
+  <figure class="ph dscan" data-slot="ossd-scan" style="margin:0"><img src="photos/ossd-diploma.jpg" alt="Аттестат OSSD выпускника Bilim International School" onerror="this.remove()"><figcaption class="lbl"><b>СКАН</b>Аттестат OSSD</figcaption></figure>
+  <p>Ontario Secondary School Diploma выпускника Bilim International School</p>
+</dialog>
+
+<!-- ============ 25 FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><img class="flogo" src="photos/logo-white.png" alt="Bilim International School" width="847" height="529"><div class="slogan">Built Different.<br><span>Built for More.</span></div><blockquote lang="kk">«Білекті бірді жығады, білімді мыңды жығады»</blockquote></div>
+      <ul>
+        <li><b>Bilim International School</b></li>
+        <li>+7 775 390 34 09</li>
+        <li>info@bilim-study.kz</li>
+        <li>Атырау, пр. Султана Бейбарыса, 464</li>
+      </ul>
+      <ul class="fnav">
+        <li><a href="#about">О школе</a></li><li><a href="#career">Профориентация</a></li><li><a href="#pre-ossd">Pre-OSSD</a></li><li><a href="#ossd">OSSD</a></li><li><a href="#admission">Поступление</a></li><li><a href="#courses">Курсы</a></li><li><a href="#abroad">За рубежом</a></li><li><a href="#news">Новости</a></li><li><a href="#faq">Частые вопросы</a></li>
+      </ul>
+      <ul>
+        <li class="soc"><a href="https://wa.me/77753903409" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></a><a href="https://www.instagram.com/bilim_study.kz/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ig"/></svg></a></li>
+        <li><a href="https://www.instagram.com/bilim_study.kz/" target="_blank" rel="noopener">@bilim_study.kz</a></li>
+        <li><a href="#top">Политика конфиденциальности</a></li>
+      </ul>
+    </div>
+    <div class="row2"><span>© 2026 Bilim International School</span><span>mybilim.kz</span></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var GS = root.classList.contains('gs');
+  var hdr = document.getElementById('hdr');
+  var lenis = null;
+
+  function hdrH(){ return document.querySelector('.nav').offsetHeight; }
+  function setHdrVar(){ root.style.setProperty('--hdr', (hdr.offsetHeight) + 'px'); }
+  setHdrVar(); addEventListener('resize', setHdrVar);
+
+  /* header: solid after scroll, event bar folds, hides on scroll down */
+  var lastY = 0;
+  function hdrState(y){
+    hdr.classList.toggle('solid', y > 30);
+    hdr.classList.toggle('compact', y > 60);
+    if(y > 500 && y > lastY + 4 && !document.getElementById('dd').classList.contains('open')) hdr.classList.add('hide');
+    else if(y < lastY - 4 || y < 500) hdr.classList.remove('hide');
+    lastY = y;
+  }
+  addEventListener('scroll', function(){ hdrState(scrollY); }, {passive:true});
+
+  /* smooth jump to a block; heading stays under the fixed header */
+  /* pages: the landing shows the key blocks, the rest open as separate pages from the menu */
+  var curPage = 'home';
+  function showPage(p){
+    if(p === curPage) return false;
+    document.querySelectorAll('.pg').forEach(function(c){ c.hidden = !(c.dataset.page === p || c.dataset.page === 'all'); });
+    document.body.classList.toggle('sub', p !== 'home'); curPage = p;
+    if(window.ScrollTrigger) ScrollTrigger.refresh();
+    if(lenis) lenis.resize();
+    return true;
+  }
+  function pageOf(el){ var c = el.closest('.pg'); return c ? c.dataset.page : 'home'; }
+  function jump(y){
+    function go(){ var yy = typeof y === 'function' ? y() : y; if(lenis){ lenis.resize(); lenis.scrollTo(yy, {immediate:true, force:true}); } scrollTo(0, yy); }
+    go(); requestAnimationFrame(function(){ go(); requestAnimationFrame(go); });
+  }
+  function goTo(id, noPush){
+    var el = document.querySelector(id); if(!el) return;
+    var p = pageOf(el);
+    if(p !== 'all' && showPage(p)){
+      if(!noPush) history.pushState(null, '', p === 'home' ? location.pathname + location.search : id);
+      var band = el.closest('.pg').querySelector('.pband');
+      var first = band && el.closest('.pg').querySelector('section') === el;
+      if(id === '#top' || first){ jump(0); return; }
+      jump(function(){ return el.getBoundingClientRect().top + scrollY - hdrH() - 10; }); return;
+    }
+    if(!noPush && p !== 'home' && p !== 'all') history.replaceState(null, '', id);
+    var off = -hdrH() - 10;
+    if(id === '#top'){ lenis ? lenis.scrollTo(0) : scrollTo({top:0, behavior:'smooth'}); return; }
+    if(lenis) lenis.scrollTo(el, {offset:off});
+    else scrollTo({top: el.getBoundingClientRect().top + scrollY + off, behavior:'smooth'});
+  }
+  addEventListener('popstate', function(){ var h = location.hash; if(h && h.length > 1 && document.querySelector(h)) goTo(h, true); else { showPage('home'); jump(0); } });
+  if(location.hash.length > 1 && document.querySelector(location.hash)){ var h0 = location.hash; setTimeout(function(){ goTo(h0, true); }, 50); }
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[href^="#"]'); if(!a) return;
+    var id = a.getAttribute('href'); if(id.length < 2 || a.getAttribute('aria-disabled') === 'true'){ if(a.getAttribute('aria-disabled') === 'true') e.preventDefault(); return; }
+    e.preventDefault();
+    if(a.dataset.interest) preselect(a.dataset.interest);
+    closeMenus();
+    goTo(id);
+  });
+
+  /* desktop dropdown */
+  var dd = document.getElementById('dd'), ddBtn = dd.querySelector('button');
+  function setDD(open){ dd.classList.toggle('open', open); ddBtn.setAttribute('aria-expanded', open); }
+  ddBtn.addEventListener('click', function(e){ e.stopPropagation(); setDD(!dd.classList.contains('open')); });
+  dd.addEventListener('pointerenter', function(e){ if(e.pointerType === 'mouse') setDD(true); });
+  dd.addEventListener('pointerleave', function(e){ if(e.pointerType === 'mouse') setDD(false); });
+  document.addEventListener('click', function(e){ if(!dd.contains(e.target)) setDD(false); });
+
+  /* mobile menu */
+  var mm = document.getElementById('mmenu'), burger = document.getElementById('burger'), msub = document.getElementById('msub');
+  function setMM(open){
+    mm.classList.toggle('open', open); mm.setAttribute('aria-hidden', !open); burger.setAttribute('aria-expanded', open);
+    if(lenis){ open ? lenis.stop() : lenis.start(); }
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  function closeMenus(){ setDD(false); if(mm.classList.contains('open')) setMM(false); }
+  burger.addEventListener('click', function(){ setMM(true); });
+  document.getElementById('mclose').addEventListener('click', function(){ setMM(false); });
+  msub.querySelector('button').addEventListener('click', function(){ var o = !msub.classList.contains('open'); msub.classList.toggle('open', o); this.setAttribute('aria-expanded', o); });
+  addEventListener('keydown', function(e){ if(e.key === 'Escape') closeMenus(); });
+
+  /* FAQ accordion */
+  document.querySelectorAll('.qa button').forEach(function(b){
+    b.addEventListener('click', function(){
+      var qa = b.parentNode, open = !qa.classList.contains('open');
+      qa.classList.toggle('open', open); b.setAttribute('aria-expanded', open);
+      if(window.ScrollTrigger) setTimeout(function(){ ScrollTrigger.refresh(); }, 520);
+    });
+  });
+
+  /* form: preselect interest from the button that led here; page-only submit */
+  function preselect(v){
+    document.querySelectorAll('#interest input').forEach(function(i){ if(i.value === v) i.checked = true; });
+  }
+  var form = document.getElementById('form'), msg = document.getElementById('fmsg');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = form.elements.name.value.trim(), phone = form.elements.phone.value.replace(/\D/g,'');
+    if(!name){ msg.className = 'msg err'; msg.textContent = 'Введите имя, чтобы мы знали, как к вам обращаться.'; form.elements.name.focus(); return; }
+    if(phone.length < 10){ msg.className = 'msg err'; msg.textContent = 'Проверьте телефон: нужно 10–11 цифр.'; form.elements.phone.focus(); return; }
+    msg.className = 'msg ok'; msg.textContent = 'Форма заполнена верно. В макете заявка не отправляется: подключим её на рабочем сайте.';
+  });
+
+  /* copy buttons */
+  document.querySelectorAll('[data-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var txt = btn.dataset.copy, old = btn.textContent;
+      function ok(){ btn.textContent = 'Скопировано'; setTimeout(function(){ btn.textContent = old; }, 1600); }
+      function fallback(){
+        var b = btn.parentNode.querySelector('b'); var rg = document.createRange(); rg.selectNodeContents(b);
+        var s = getSelection(); s.removeAllRanges(); s.addRange(rg); btn.textContent = 'Выделено';
+        setTimeout(function(){ btn.textContent = old; }, 1600);
+      }
+      try { navigator.clipboard.writeText(txt).then(ok, fallback); } catch(err){ fallback(); }
+    });
+  });
+
+  var phones = document.getElementById('phones');
+  function playPhones(){
+    phones.querySelectorAll('.bar i').forEach(function(b){ b.style.setProperty('--w', b.dataset.w); });
+    phones.querySelectorAll('.task[data-t]').forEach(function(t){ setTimeout(function(){ t.classList.add('done'); }, (GS ? 500 : 0) + t.dataset.t*550); });
+  }
+
+  /* #edit: drop or pick a photo onto any frame to preview it */
+  if(location.hash === '#edit'){
+    document.body.classList.add('edit');
+    document.querySelectorAll('.ph[data-slot]').forEach(function(ph){
+      var inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*'; inp.hidden = true;
+      inp.id = 'file-' + ph.dataset.slot; ph.appendChild(inp);
+      function put(file){
+        if(!file || !/^image\//.test(file.type)) return;
+        var rd = new FileReader();
+        rd.onload = function(){
+          var img = ph.querySelector('img') || document.createElement('img');
+          img.src = rd.result; img.alt = ''; img.onerror = null; ph.insertBefore(img, ph.firstChild);
+        };
+        rd.readAsDataURL(file);
+      }
+      ph.addEventListener('click', function(e){ e.preventDefault(); if(e.target !== inp) inp.click(); });
+      inp.addEventListener('change', function(){ put(inp.files[0]); });
+      ph.addEventListener('dragover', function(e){ e.preventDefault(); ph.classList.add('over'); });
+      ph.addEventListener('dragleave', function(){ ph.classList.remove('over'); });
+      ph.addEventListener('drop', function(e){ e.preventDefault(); ph.classList.remove('over'); put(e.dataTransfer.files[0]); });
+    });
+  }
+
+  if(!GS){ playPhones(); return; }
+
+  /* ================= MOTION ================= */
+  gsap.registerPlugin(ScrollTrigger);
+  if(window.Lenis){
+    lenis = new Lenis({lerp:.09, smoothWheel:true, virtualScroll:function(e){ return !(e.event && e.event.target.closest && e.event.target.closest('.gscroll') && Math.abs(e.deltaX) > Math.abs(e.deltaY)); }});
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+    gsap.ticker.lagSmoothing(0);
+  }
+
+  /* split headings into words and characters */
+  document.querySelectorAll('.split').forEach(function(el){
+    (function walk(node){
+      [].slice.call(node.childNodes).forEach(function(n){
+        if(n.nodeType === 3){
+          var frag = document.createDocumentFragment();
+          n.textContent.split(/(\s+)/).forEach(function(part){
+            if(!part) return;
+            if(/^\s+$/.test(part)){ frag.appendChild(document.createTextNode(' ')); return; }
+            var w = document.createElement('span'); w.className = 'w';
+            part.split('').forEach(function(ch){ var c = document.createElement('span'); c.className = 'c'; c.textContent = ch; w.appendChild(c); });
+            frag.appendChild(w);
+          });
+          n.parentNode.replaceChild(frag, n);
+        } else if(n.nodeType === 1 && !n.classList.contains('tbc') && !n.classList.contains('rot')) walk(n);
+      });
+    })(el);
+  });
+
+  /* headline destination: университет, Канаду, США… slides up one after another */
+  (function(){
+    var ws = gsap.utils.toArray('#rot .rw'); if(ws.length < 2) return; var k = 0;
+    gsap.set(ws.slice(1), {yPercent:110});
+    setInterval(function(){
+      if(document.hidden) return;
+      var a = ws[k]; k = (k + 1) % ws.length; var b = ws[k];
+      gsap.to(a, {yPercent:-110, duration:.7, ease:'expo.inOut'});
+      gsap.fromTo(b, {yPercent:110}, {yPercent:0, duration:.7, ease:'expo.inOut'});
+    }, 2400);
+  })();
+
+  var mmq = gsap.matchMedia();
+
+  /* first screen start state: the whole hero is in place, only its pieces wait for their entrance */
+  gsap.set('.hero-copy .c', {yPercent: 115});
+  gsap.set('.hero-copy .eyebrow, .hero-copy .lead, .hero-copy .cta', {autoAlpha: 0, y: 30});
+  gsap.set('.hnews', {autoAlpha: 0, x: 40});
+  gsap.set('.fimg', {scale: 1.12});
+  gsap.set('.hint', {autoAlpha: 0});
+  if(lenis) lenis.stop();
+
+  /* the hero assembles: wordmark, headline letters, text, buttons, badge */
+  gsap.timeline({delay:.1})
+    .to('.fimg', {scale:1, duration:1.8, ease:'expo.out'}, 0)
+    .from('#hdr .event, #hdr .nav', {autoAlpha:0, y:-16, duration:.8, ease:'expo.out', stagger:.08, clearProps:'all'}, '<')
+    .to('.hero-copy .eyebrow', {autoAlpha:1, y:0, duration:.7, ease:'expo.out'}, '<.15')
+    .to('.hero-copy .c', {yPercent:0, duration:.9, ease:'expo.out', stagger:.012}, '<.05')
+    .from('#rot', {autoAlpha:0, y:24, duration:.7, ease:'expo.out'}, '-=.45')
+    .to('.hero-copy .lead', {autoAlpha:1, y:0, duration:.8, ease:'expo.out'}, '-=.6')
+    .to('.hero-copy .cta', {autoAlpha:1, y:0, duration:.8, ease:'expo.out'}, '-=.65')
+    .to('.hnews', {autoAlpha:1, x:0, duration:.9, ease:'expo.out'}, '-=.7')
+    .to('.hint', {autoAlpha:1, duration:.5}, '-=.4')
+    .add(function(){ if(lenis) lenis.start(); ScrollTrigger.refresh(); });
+
+  /* scrolling away: wordmark rows slide apart, photo drifts, hero text lifts and fades (no pinning) */
+  gsap.timeline({scrollTrigger:{trigger:'#top', start:'top top', end:'bottom top', scrub:.6}})
+    .to('.fimg', {yPercent:18, ease:'none'}, 0)
+    .to('.hero-copy', {yPercent: innerWidth < 760 ? 0 : -12, autoAlpha: innerWidth < 760 ? 1 : .15, ease:'none'}, 0)
+    .to('.hint', {autoAlpha:0, duration:.1}, 0);
+
+  /* headings: characters rise; blocks fade up */
+  document.querySelectorAll('.split:not(#h1)').forEach(function(el){
+    gsap.from(el.querySelectorAll('.c'), {yPercent:115, duration:1, ease:'expo.out', stagger:.01, scrollTrigger:{trigger:el, start:'top 88%'}});
+  });
+  gsap.utils.toArray('.rv').forEach(function(el){
+    gsap.from(el, {y:50, autoAlpha:0, duration:1.1, ease:'expo.out', scrollTrigger:{trigger:el, start:'top 92%'}});
+  });
+
+  /* marquees react to scroll direction and speed */
+  function loop(sel, dur){
+    var tw = gsap.to(sel, {xPercent:-50, repeat:-1, duration:dur, ease:'none'});
+    ScrollTrigger.create({onUpdate:function(s){
+      var v = s.getVelocity(), dir = s.direction;
+      gsap.to(tw, {timeScale: dir * Math.min(6, 1 + Math.abs(v)/350), duration:.2, overwrite:true});
+      gsap.to(tw, {timeScale: dir, duration:1.2, delay:.25, overwrite:false});
+    }});
+  }
+  loop('#ptrack', 55); loop('#utrack', 40);
+
+  /* photos: slow zoom-out parallax inside their frames */
+  gsap.utils.toArray('.pimg').forEach(function(ph){
+    gsap.fromTo(ph, {clipPath:'inset(12% 12% 12% 12% round 28px)'}, {clipPath:'inset(0% 0% 0% 0% round 28px)', ease:'none', scrollTrigger:{trigger:ph, start:'top 95%', end:'top 35%', scrub:true}});
+  });
+
+  /* help: earlier cards sink back as the next one stacks on top */
+  var cards = gsap.utils.toArray('.scard');
+  cards.forEach(function(st, i){
+    var next = cards[i+1]; if(!next) return;
+    gsap.fromTo(st, {scale:1, filter:'brightness(1)'}, {scale:.9 + i*.02, filter:'brightness(.75)', ease:'none', immediateRender:false,
+      scrollTrigger:{trigger:next, start:'top bottom', end:function(){ return 'top ' + (hdr.offsetHeight + 10 + (i+1)*22) + 'px'; }, scrub:true, invalidateOnRefresh:true}});
+  });
+
+  /* start: horizontal scroll on desktop */
+  mmq.add('(min-width: 900px)', function(){
+    var track = document.getElementById('rtrack');
+    var dist = function(){ return Math.max(0, track.scrollWidth - innerWidth); };
+    gsap.to(track, {x:function(){ return -dist(); }, ease:'none',
+      scrollTrigger:{trigger:'#start', start:'top top', end:function(){ return '+=' + dist(); }, pin:true, scrub:1, invalidateOnRefresh:true,
+        onUpdate:function(s){ gsap.set('#rfill', {scaleX:s.progress}); }}});
+  });
+  mmq.add('(max-width: 899px)', function(){
+    gsap.utils.toArray('.rc').forEach(function(c){
+      gsap.from(c, {y:80, scale:.94, autoAlpha:0, duration:1, ease:'expo.out', scrollTrigger:{trigger:c, start:'top 90%'}});
+    });
+  });
+
+  /* pre-ossd counters */
+  document.querySelectorAll('[data-count]').forEach(function(b){
+    var o = {v:0}, to = +b.dataset.count;
+    gsap.to(o, {v:to, duration:1.6, ease:'power3.out', scrollTrigger:{trigger:b, start:'top 90%'}, onUpdate:function(){ b.textContent = Math.round(o.v); }});
+  });
+
+  /* grids pop in */
+  [['#subjects .sj','#subjects'],['#results-grid .res','#results-grid'],['#courses-grid .course','#courses-grid'],['#team-grid .tm','#team-grid'],['#qas .qa','#qas']].forEach(function(p){
+    gsap.from(p[0], {y:70, autoAlpha:0, duration:1.1, ease:'expo.out', stagger:.07, scrollTrigger:{trigger:p[1], start:'top 88%'}});
+  });
+
+  /* admission timeline fills while scrolling */
+  gsap.to('#tfill', {scaleY:1, ease:'none', scrollTrigger:{trigger:'#tl', start:'top 70%', end:'bottom 60%', scrub:true}});
+  gsap.utils.toArray('#tl li').forEach(function(li){
+    gsap.from(li, {x:40, autoAlpha:0, duration:.9, ease:'expo.out', scrollTrigger:{trigger:li, start:'top 85%'}});
+  });
+
+  /* cabinet phones */
+  gsap.from('.phone.p-a', {y:160, rotate:-14, autoAlpha:0, duration:1.4, ease:'expo.out', scrollTrigger:{trigger:'#phones', start:'top 80%', onEnter:playPhones}});
+  gsap.from('.phone.p-b', {y:220, rotate:14, autoAlpha:0, duration:1.4, delay:.12, ease:'expo.out', scrollTrigger:{trigger:'#phones', start:'top 80%'}});
+  gsap.to('.phone.p-a', {yPercent:-8, ease:'none', scrollTrigger:{trigger:'#cabinet', start:'top bottom', end:'bottom top', scrub:true}});
+  gsap.to('.phone.p-b', {yPercent:6, ease:'none', scrollTrigger:{trigger:'#cabinet', start:'top bottom', end:'bottom top', scrub:true}});
+
+  gsap.from('#gtrack figure', {y:80, autoAlpha:0, duration:1.2, ease:'expo.out', stagger:.06, scrollTrigger:{trigger:'#gtrack', start:'top 90%'}});
+
+
+  /* footer word rises letter by letter */
+
+  /* custom cursor + magnetic buttons (mouse only) */
+  if(matchMedia('(pointer:fine)').matches){
+    var cur = document.querySelector('.cur'), dot = document.querySelector('.cur-dot'), lbl = cur.querySelector('span');
+    var cx = gsap.quickTo(cur, 'x', {duration:.45, ease:'power3'}), cy = gsap.quickTo(cur, 'y', {duration:.45, ease:'power3'});
+    var dx = gsap.quickTo(dot, 'x', {duration:.08}), dy = gsap.quickTo(dot, 'y', {duration:.08});
+    addEventListener('pointermove', function(e){ if(!cur.style.opacity){ cur.style.opacity = 1; dot.style.opacity = 1; } cx(e.clientX); cy(e.clientY); dx(e.clientX); dy(e.clientY); });
+    document.querySelectorAll('[data-cursor]').forEach(function(el){
+      el.addEventListener('pointerenter', function(){ lbl.textContent = el.dataset.cursor; cur.classList.add('big'); });
+      el.addEventListener('pointerleave', function(){ cur.classList.remove('big'); });
+    });
+    document.querySelectorAll('a, button, .sj, .course, .kin li').forEach(function(el){
+      el.addEventListener('pointerenter', function(){ cur.classList.add('link'); });
+      el.addEventListener('pointerleave', function(){ cur.classList.remove('link'); });
+    });
+    document.querySelectorAll('.mag').forEach(function(b){
+      b.addEventListener('pointermove', function(e){
+        var r = b.getBoundingClientRect();
+        gsap.to(b, {x:(e.clientX - r.left - r.width/2)*.3, y:(e.clientY - r.top - r.height/2)*.35, duration:.4, ease:'power3.out'});
+      });
+      b.addEventListener('pointerleave', function(){ gsap.to(b, {x:0, y:0, duration:.9, ease:'elastic.out(1,.4)'}); });
+    });
+  }
+
+  addEventListener('load', function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script>
+/* hero news carousel */
+(function(){
+  var l = document.getElementById('hnlist'); if(!l) return;
+  var cards = l.querySelectorAll('.hc'), dots = document.getElementById('hndots'), prev = document.getElementById('hnprev'), next = document.getElementById('hnnext');
+  cards.forEach(function(){ dots.appendChild(document.createElement('i')); });
+  function idx(){ return Math.round(l.scrollLeft / (cards[0].offsetWidth + 12)); }
+  function upd(){ var i = idx(); dots.querySelectorAll('i').forEach(function(d, k){ d.classList.toggle('on', k === i); }); prev.disabled = i <= 0; next.disabled = i >= cards.length - 1; }
+  function go(d){ l.scrollTo({left: (idx() + d) * (cards[0].offsetWidth + 12), behavior:'smooth'}); }
+  prev.addEventListener('click', function(){ go(-1); }); next.addEventListener('click', function(){ go(1); });
+  l.addEventListener('scroll', upd, {passive:true}); addEventListener('resize', upd); upd();
+})();
+</script>
+<script>
+/* modals: diploma scan, price list */
+(function(){
+  document.querySelectorAll('[data-open]').forEach(function(el){
+    var m = document.getElementById(el.getAttribute('data-open')); if(!m || !m.showModal) return;
+    el.addEventListener('click', function(){ m.showModal(); });
+    if(el.tagName !== 'BUTTON') el.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); m.showModal(); } });
+  });
+  document.querySelectorAll('.dmodal').forEach(function(m){
+    m.querySelector('.dclose').addEventListener('click', function(){ m.close(); });
+    m.addEventListener('click', function(e){ if(e.target === m) m.close(); });
+  });
+})();
+</script>
+<script>
+/* photo strip: swipe, drag, arrows, keyboard */
+(function(){
+  var sc = document.getElementById('gscroll'); if(!sc) return;
+  var prev = document.getElementById('gprev'), next = document.getElementById('gnext'), bar = document.getElementById('gbar');
+  function step(){ var f = sc.querySelector('figure'); return f ? f.offsetWidth + 16 : sc.clientWidth * .8; }
+  function go(d){ sc.scrollBy({left: d * step(), behavior:'smooth'}); }
+  prev.addEventListener('click', function(){ go(-1); });
+  next.addEventListener('click', function(){ go(1); });
+  sc.addEventListener('keydown', function(e){ if(e.key === 'ArrowRight'){ go(1); e.preventDefault(); } if(e.key === 'ArrowLeft'){ go(-1); e.preventDefault(); } });
+  function upd(){
+    var max = sc.scrollWidth - sc.clientWidth, p = max > 0 ? sc.scrollLeft / max : 0;
+    bar.style.width = (Math.max(.08, p) * 100) + '%';
+    prev.disabled = sc.scrollLeft < 4; next.disabled = sc.scrollLeft > max - 4;
+  }
+  sc.addEventListener('scroll', upd, {passive:true}); addEventListener('resize', upd); upd();
+  /* mouse drag (touch scrolls natively) */
+  var down = false, sx = 0, sl = 0, moved = 0;
+  sc.addEventListener('pointerdown', function(e){ if(e.pointerType !== 'mouse' || e.button !== 0) return; down = true; moved = 0; sx = e.clientX; sl = sc.scrollLeft; });
+  addEventListener('pointermove', function(e){
+    if(!down) return; var dx = e.clientX - sx; moved = Math.max(moved, Math.abs(dx));
+    if(moved > 4){ sc.classList.add('drag'); sc.scrollLeft = sl - dx; }
+  });
+  addEventListener('pointerup', function(){
+    if(!down) return; down = false;
+    if(sc.classList.contains('drag')){ var x = sc.scrollLeft; sc.classList.remove('drag'); sc.scrollLeft = x; }
+  });
+  sc.addEventListener('dragstart', function(e){ e.preventDefault(); });
+})();
+</script>
